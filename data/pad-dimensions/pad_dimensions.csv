@@ -1,0 +1,1498 @@
+Codi_Dimensio,Desc_Dimensio,Codi_Valor,Desc_Valor_CA,Desc_Valor_ES,Desc_Valor_EN
+1,SEXE,1,Dona,Mujer,Female
+1,SEXE,2,Home,Hombre,Male
+2,EDAT_1,0,0 anys,0 años,0 years
+2,EDAT_1,1,1 anys,1 años,1 years
+2,EDAT_1,2,2 anys,2 años,2 years
+2,EDAT_1,3,3 anys,3 años,3 years
+2,EDAT_1,4,4 anys,4 años,4 years
+2,EDAT_1,5,5 anys,5 años,5 years
+2,EDAT_1,6,6 anys,6 años,6 years
+2,EDAT_1,7,7 anys,7 años,7 years
+2,EDAT_1,8,8 anys,8 años,8 years
+2,EDAT_1,9,9 anys,9 años,9 years
+2,EDAT_1,10,10 anys,10 años,10 years
+2,EDAT_1,11,11 anys,11 años,11 years
+2,EDAT_1,12,12 anys,12 años,12 years
+2,EDAT_1,13,13 anys,13 años,13 years
+2,EDAT_1,14,14 anys,14 años,14 years
+2,EDAT_1,15,15 anys,15 años,15 years
+2,EDAT_1,16,16 anys,16 años,16 years
+2,EDAT_1,17,17 anys,17 años,17 years
+2,EDAT_1,18,18 anys,18 años,18 years
+2,EDAT_1,19,19 anys,19 años,19 years
+2,EDAT_1,20,20 anys,20 años,20 years
+2,EDAT_1,21,21 anys,21 años,21 years
+2,EDAT_1,22,22 anys,22 años,22 years
+2,EDAT_1,23,23 anys,23 años,23 years
+2,EDAT_1,24,24 anys,24 años,24 years
+2,EDAT_1,25,25 anys,25 años,25 years
+2,EDAT_1,26,26 anys,26 años,26 years
+2,EDAT_1,27,27 anys,27 años,27 years
+2,EDAT_1,28,28 anys,28 años,28 years
+2,EDAT_1,29,29 anys,29 años,29 years
+2,EDAT_1,30,30 anys,30 años,30 years
+2,EDAT_1,31,31 anys,31 años,31 years
+2,EDAT_1,32,32 anys,32 años,32 years
+2,EDAT_1,33,33 anys,33 años,33 years
+2,EDAT_1,34,34 anys,34 años,34 years
+2,EDAT_1,35,35 anys,35 años,35 years
+2,EDAT_1,36,36 anys,36 años,36 years
+2,EDAT_1,37,37 anys,37 años,37 years
+2,EDAT_1,38,38 anys,38 años,38 years
+2,EDAT_1,39,39 anys,39 años,39 years
+2,EDAT_1,40,40 anys,40 años,40 years
+2,EDAT_1,41,41 anys,41 años,41 years
+2,EDAT_1,42,42 anys,42 años,42 years
+2,EDAT_1,43,43 anys,43 años,43 years
+2,EDAT_1,44,44 anys,44 años,44 years
+2,EDAT_1,45,45 anys,45 años,45 years
+2,EDAT_1,46,46 anys,46 años,46 years
+2,EDAT_1,47,47 anys,47 años,47 years
+2,EDAT_1,48,48 anys,48 años,48 years
+2,EDAT_1,49,49 anys,49 años,49 years
+2,EDAT_1,50,50 anys,50 años,50 years
+2,EDAT_1,51,51 anys,51 años,51 years
+2,EDAT_1,52,52 anys,52 años,52 years
+2,EDAT_1,53,53 anys,53 años,53 years
+2,EDAT_1,54,54 anys,54 años,54 years
+2,EDAT_1,55,55 anys,55 años,55 years
+2,EDAT_1,56,56 anys,56 años,56 years
+2,EDAT_1,57,57 anys,57 años,57 years
+2,EDAT_1,58,58 anys,58 años,58 years
+2,EDAT_1,59,59 anys,59 años,59 years
+2,EDAT_1,60,60 anys,60 años,60 years
+2,EDAT_1,61,61 anys,61 años,61 years
+2,EDAT_1,62,62 anys,62 años,62 years
+2,EDAT_1,63,63 anys,63 años,63 years
+2,EDAT_1,64,64 anys,64 años,64 years
+2,EDAT_1,65,65 anys,65 años,65 years
+2,EDAT_1,66,66 anys,66 años,66 years
+2,EDAT_1,67,67 anys,67 años,67 years
+2,EDAT_1,68,68 anys,68 años,68 years
+2,EDAT_1,69,69 anys,69 años,69 years
+2,EDAT_1,70,70 anys,70 años,70 years
+2,EDAT_1,71,71 anys,71 años,71 years
+2,EDAT_1,72,72 anys,72 años,72 years
+2,EDAT_1,73,73 anys,73 años,73 years
+2,EDAT_1,74,74 anys,74 años,74 years
+2,EDAT_1,75,75 anys,75 años,75 years
+2,EDAT_1,76,76 anys,76 años,76 years
+2,EDAT_1,77,77 anys,77 años,77 years
+2,EDAT_1,78,78 anys,78 años,78 years
+2,EDAT_1,79,79 anys,79 años,79 years
+2,EDAT_1,80,80 anys,80 años,80 years
+2,EDAT_1,81,81 anys,81 años,81 years
+2,EDAT_1,82,82 anys,82 años,82 years
+2,EDAT_1,83,83 anys,83 años,83 years
+2,EDAT_1,84,84 anys,84 años,84 years
+2,EDAT_1,85,85 anys,85 años,85 years
+2,EDAT_1,86,86 anys,86 años,86 years
+2,EDAT_1,87,87 anys,87 años,87 years
+2,EDAT_1,88,88 anys,88 años,88 years
+2,EDAT_1,89,89 anys,89 años,89 years
+2,EDAT_1,90,90 anys,90 años,90 years
+2,EDAT_1,91,91 anys,91 años,91 years
+2,EDAT_1,92,92 anys,92 años,92 years
+2,EDAT_1,93,93 anys,93 años,93 years
+2,EDAT_1,94,94 anys,94 años,94 years
+2,EDAT_1,95,95 anys,95 años,95 years
+2,EDAT_1,96,96 anys,96 años,96 years
+2,EDAT_1,97,97 anys,97 años,97 years
+2,EDAT_1,98,98 anys,98 años,98 years
+2,EDAT_1,99,99 anys,99 años,99 years
+2,EDAT_1,100,≥100 anys,≥100 años,≥100 years
+2,EDAT_1,101,No consta,No consta,Not avalaible
+3,EDAT_Q,0,<5 anys,<5 años,<5 years
+3,EDAT_Q,1,5-9 anys,5-9 años,5-9 years
+3,EDAT_Q,2,10-14 anys,10-14 años,10-14 years
+3,EDAT_Q,3,15-19 anys,15-19 años,15-19 years
+3,EDAT_Q,4,20-24 anys,20-24 años,20-24 years
+3,EDAT_Q,5,25-29 anys,25-29 años,25-29 years
+3,EDAT_Q,6,30-34 anys,30-34 años,30-34 years
+3,EDAT_Q,7,35-39 anys,35-39 años,35-39 years
+3,EDAT_Q,8,40-44 anys,40-44 años,40-44 years
+3,EDAT_Q,9,45-49 anys,45-49 años,45-49 years
+3,EDAT_Q,10,50-54 anys,50-54 años,50-54 years
+3,EDAT_Q,11,55-59 anys,55-59 años,55-59 years
+3,EDAT_Q,12,60-64 anys,60-64 años,60-64 years
+3,EDAT_Q,13,65-69 anys,65-69 años,65-69 years
+3,EDAT_Q,14,70-74 anys,70-74 años,70-74 years
+3,EDAT_Q,15,75-79 anys,75-79 años,75-79 years
+3,EDAT_Q,16,80-84 anys,80-84 años,80-84 years
+3,EDAT_Q,17,85-89 anys,85-89 años,85-89 years
+3,EDAT_Q,18,90-94 anys,90-94 años,90-94 years
+3,EDAT_Q,19,95-99 anys,95-99 años,95-99 years
+3,EDAT_Q,20,≥100 anys,≥100 años,≥100 years
+3,EDAT_Q,21,No consta,No consta,Not available
+4,EDAT_G,0,<16 anys,<16 años,<16 years
+4,EDAT_G,1,16-24 anys,16-24 años,16-24 years
+4,EDAT_G,2,25-39 anys,25-39 años,25-39 years
+4,EDAT_G,3,40-64 anys,40-64 años,40-64 years
+4,EDAT_G,4,≥65 anys,≥65 años,≥65 years
+4,EDAT_G,5,No consta,No consta,Not available
+5,LLOC_NAIX,1,Barcelona ciutat,Barcelona ciudad,City of Barcelona
+5,LLOC_NAIX,2,Resta de Catalunya,Resto de Cataluña,Rest of Catalonia
+5,LLOC_NAIX,3,Resta d’Espanya,Resto de España,Rest of Spain
+5,LLOC_NAIX,4,Resta de la Unió Europea,Resto de la Unión Europea,Rest of European Union
+5,LLOC_NAIX,5,Resta del món,Resto del mundo,Rest of World
+5,LLOC_NAIX,6,No consta,No consta,Not available
+6,LLOC_NAIX_CCAA,1,Andalusia,Andalucía,Andalucía
+6,LLOC_NAIX_CCAA,2,Aragó,Aragón,Aragón
+6,LLOC_NAIX_CCAA,3,Principat d'Astúries,Principado de Asturias,Principado de Asturias
+6,LLOC_NAIX_CCAA,4,Illes Balears,Illes Balears,Illes Balears
+6,LLOC_NAIX_CCAA,5,Canàries,Canarias,Canarias
+6,LLOC_NAIX_CCAA,6,Cantàbria,Cantabria,Cantabria
+6,LLOC_NAIX_CCAA,7,Castella i Lleó,Castilla y León,Castilla y León
+6,LLOC_NAIX_CCAA,8,Castella - la Manxa,Castilla - La Mancha,Castilla - La Mancha
+6,LLOC_NAIX_CCAA,9,Catalunya,Cataluña,Cataluña
+6,LLOC_NAIX_CCAA,10,Comunitat Valenciana,Comunitat Valenciana,Comunitat Valenciana
+6,LLOC_NAIX_CCAA,11,Extremadura,Extremadura,Extremadura
+6,LLOC_NAIX_CCAA,12,Galícia,Galicia,Galicia
+6,LLOC_NAIX_CCAA,13,Comunitat de Madrid,Comunidad de Madrid,Comunidad de Madrid
+6,LLOC_NAIX_CCAA,14,Regió de Múrcia,Región de Murcia,Región de Murcia
+6,LLOC_NAIX_CCAA,15,Comunitat Foral de Navarra,Comunidad Foral de Navarra,Comunidad Foral de Navarra
+6,LLOC_NAIX_CCAA,16,País Basc,País Vasco,País Vasco
+6,LLOC_NAIX_CCAA,17,"Rioja, La","Rioja, La","Rioja, La"
+6,LLOC_NAIX_CCAA,18,Ceuta,Ceuta,Ceuta
+6,LLOC_NAIX_CCAA,19,Melilla,Melilla,Melilla
+6,LLOC_NAIX_CCAA,20,Estranger,Extranjero,Foreign
+6,LLOC_NAIX_CCAA,21,No consta,No consta,Not available
+7,LLOC_NAIX_REGIO,1,Àfrica oriental,África oriental,Eastern Africa
+7,LLOC_NAIX_REGIO,2,Àfrica central,África central,Middle Africa
+7,LLOC_NAIX_REGIO,3,Àfrica septentrional,África septentrional,Northern Africa
+7,LLOC_NAIX_REGIO,4,Àfrica meridional,África meridional,Southern Africa
+7,LLOC_NAIX_REGIO,5,Àfrica occidental,África occidental,Western Africa
+7,LLOC_NAIX_REGIO,6,Carib,Caribe,Caribbean
+7,LLOC_NAIX_REGIO,7,Amèrica central,América central,Central America
+7,LLOC_NAIX_REGIO,8,Amèrica del sud,América del sur,South America
+7,LLOC_NAIX_REGIO,9,Amèrica del nord,América del norte,Northern America
+7,LLOC_NAIX_REGIO,10,Àsia central,Asia central,Central Asia
+7,LLOC_NAIX_REGIO,11,Àsia oriental,Asia oriental,Eastern Asia
+7,LLOC_NAIX_REGIO,12,Àsia meridional,Asia meridional,Southern Asia
+7,LLOC_NAIX_REGIO,13,Àsia sud-oriental,Asia sur-oriental,South-Eastern Asia
+7,LLOC_NAIX_REGIO,14,Àsia occidental,Ásia occidental,Western Asia
+7,LLOC_NAIX_REGIO,15,Europa oriental,Europa oriental,Eastern Europe
+7,LLOC_NAIX_REGIO,16,Europa septentrional,Europa septentrional,Northern Europe
+7,LLOC_NAIX_REGIO,17,Europa meridional,Europa meridional,Southern Europe
+7,LLOC_NAIX_REGIO,18,Europa occidental,Europa occidental,Western Europe
+7,LLOC_NAIX_REGIO,19,Austràlia i Nova Zelanda,Australia y Nueva Zelanda,Australia and New Zealand
+7,LLOC_NAIX_REGIO,20,Melanèsia,Melanesia,Melanesia
+7,LLOC_NAIX_REGIO,21,Micronèsia,Micronesia,Micronesia
+7,LLOC_NAIX_REGIO,22,Polinèsia,Polinesia,Polynesia
+7,LLOC_NAIX_REGIO,23,No consta,No consta,Not available
+8,NACIONALITAT_G,1,Espanya,España,Spain
+8,NACIONALITAT_G,2,Resta de la Unió Europea,Resto de la Unión Europea,Rest of European Union
+8,NACIONALITAT_G,3,Resta del món,Resto del mundo,Rest of World
+8,NACIONALITAT_G,4,No consta,No consta,Not available
+9,NACIONALITAT_REGIO,1,Àfrica oriental,África oriental,Eastern Africa
+9,NACIONALITAT_REGIO,2,Àfrica central,África central,Middle Africa
+9,NACIONALITAT_REGIO,3,Àfrica septentrional,África septentrional,Northern Africa
+9,NACIONALITAT_REGIO,4,Àfrica meridional,África meridional,Southern Africa
+9,NACIONALITAT_REGIO,5,Àfrica occidental,África occidental,Western Africa
+9,NACIONALITAT_REGIO,6,Carib,Caribe,Caribbean
+9,NACIONALITAT_REGIO,7,Amèrica central,América central,Central America
+9,NACIONALITAT_REGIO,8,Amèrica del sud,América del sur,South America
+9,NACIONALITAT_REGIO,9,Amèrica del nord,América del norte,Northern America
+9,NACIONALITAT_REGIO,10,Àsia central,Asia central,Central Asia
+9,NACIONALITAT_REGIO,11,Àsia oriental,Asia oriental,Eastern Asia
+9,NACIONALITAT_REGIO,12,Àsia meridional,Asia meridional,Southern Asia
+9,NACIONALITAT_REGIO,13,Àsia sud-oriental,Asia sur-oriental,South-Eastern Asia
+9,NACIONALITAT_REGIO,14,Àsia occidental,Ásia occidental,Western Asia
+9,NACIONALITAT_REGIO,15,Europa oriental,Europa oriental,Eastern Europe
+9,NACIONALITAT_REGIO,16,Europa septentrional,Europa septentrional,Northern Europe
+9,NACIONALITAT_REGIO,17,Europa meridional,Europa meridional,Southern Europe
+9,NACIONALITAT_REGIO,18,Europa occidental,Europa occidental,Western Europe
+9,NACIONALITAT_REGIO,19,Austràlia i Nova Zelanda,Australia y Nueva Zelanda,Australia and New Zealand
+9,NACIONALITAT_REGIO,20,Melanèsia,Melanesia,Melanesia
+9,NACIONALITAT_REGIO,21,Micronèsia,Micronesia,Micronesia
+9,NACIONALITAT_REGIO,22,Polinèsia,Polinesia,Polynesia
+9,NACIONALITAT_REGIO,23,No consta,No consta,Not available
+10,NIV_EDUCA_esta,1,Sense estudis,Sin estudios,Less than primary education
+10,NIV_EDUCA_esta,2,"Estudis primaris, certificat d'escolaritat, EGB","Estudios primarios, certificado de escolaridad, EGB",Primary education
+10,NIV_EDUCA_esta,3,"Batxillerat elemental, graduat escolar, ESO, FPI","Bachillerato elemental, graduado escolar, ESO, FPI",Lower secondary education
+10,NIV_EDUCA_esta,4,"Batxillerat superior, BUP, COU, FPII, CFGM grau mitjà","Bachillerato superior, BUP, COU, FPII, CFGM grado medio",Upper secondary or post-secondary non-tertiary education
+10,NIV_EDUCA_esta,5,"Estudis universitaris, CFGS grau superior","Estudios universitarios, CFGS grado superior",Tertiary education
+10,NIV_EDUCA_esta,6,No consta,No consta,Not available
+11,EDAT_ALTA_agg,1,Menys d'1 any,Menos de 1 año,Less than 1 year
+11,EDAT_ALTA_agg,2,D'1 a 5 anys,De 1 a 5 años,From 1 to 5 years
+11,EDAT_ALTA_agg,3,De 6 a 15 anys,De 6 a 15 años,From 6 to 15 years
+11,EDAT_ALTA_agg,4,Més de 15 anys,Más de 15 años,More than 15 years
+11,EDAT_ALTA_agg,5,No consta,No consta,Not available
+12,DECADA,1,Abans de 1930,Antes de 1930,Before 1930
+12,DECADA,2,1930-1939,1930-1939,1930-1939
+12,DECADA,3,1940-1949,1940-1949,1940-1949
+12,DECADA,4,1950-1959,1950-1959,1950-1959
+12,DECADA,5,1960-1969,1960-1969,1960-1969
+12,DECADA,6,1970-1979,1970-1979,1970-1979
+12,DECADA,7,1980-1989,1980-1989,1980-1989
+12,DECADA,8,1990-1999,1990-1999,1990-1999
+12,DECADA,9,2000-2009,2000-2009,2000-2009
+12,DECADA,10,2010-2019,2010-2019,2010-2019
+12,DECADA,11,2020-2030,2020-2030,2020-2023
+13,CCAA_MOV,1,Andalusia,Andalucía,Andalucía
+13,CCAA_MOV,2,Aragó,Aragón,Aragón
+13,CCAA_MOV,3,Principat d'Astúries,Principado de Asturias,Principado de Asturias
+13,CCAA_MOV,4,Illes Balears,Illes Balears,Illes Balears
+13,CCAA_MOV,5,Canàries,Canarias,Canarias
+13,CCAA_MOV,6,Cantàbria,Cantabria,Cantabria
+13,CCAA_MOV,7,Castella i Lleó,Castilla y León,Castilla y León
+13,CCAA_MOV,8,Castella - la Manxa,Castilla - La Mancha,Castilla - La Mancha
+13,CCAA_MOV,8,Castella - la Manxa,Castilla - La Mancha,Castilla - La Mancha
+13,CCAA_MOV,9,Catalunya,Cataluña,Cataluña
+13,CCAA_MOV,10,Comunitat Valenciana,Comunitat Valenciana,Comunitat Valenciana
+13,CCAA_MOV,11,Extremadura,Extremadura,Extremadura
+13,CCAA_MOV,12,Galícia,Galicia,Galicia
+13,CCAA_MOV,13,Comunitat de Madrid,Comunidad de Madrid,Comunidad de Madrid
+13,CCAA_MOV,14,Regió de Múrcia,Región de Murcia,Región de Murcia
+13,CCAA_MOV,15,Comunitat Foral de Navarra,Comunidad Foral de Navarra,Comunidad Foral de Navarra
+13,CCAA_MOV,16,País Basc,País Vasco,País Vasco
+13,CCAA_MOV,17,"Rioja, La","Rioja, La","Rioja, La"
+13,CCAA_MOV,18,Ceuta,Ceuta,Ceuta
+13,CCAA_MOV,19,Melilla,Melilla,Melilla
+13,CCAA_MOV,20,Estranger,Extranjero,Foreign
+13,CCAA_MOV,21,No consta,No consta,Not available
+14,NACIO_DEST_AG,1,Espanyola,Española,Spanish
+14,NACIO_DEST_AG,2,Altres països UE,Otros paises UE,Other UE countries
+14,NACIO_DEST_AG,3,Altres,Otros,Other
+15,COL_SDF,1,Domicili,Domicili,Domicili
+15,COL_SDF,2,Domicili col·lectiu,Domicili col·lectivo,Collective household
+15,COL_SDF,3,Sense domicili,Sin domicilio,Whithout household
+16,N_PERSONES_AGG,1,Una persona,Una persona,One person
+16,N_PERSONES_AGG,2,Dues persones,Dos personas,Two people
+16,N_PERSONES_AGG,3,Tres persones,Tres personas,Three people
+16,N_PERSONES_AGG,4,Quatre persones,Cuatro personas,Four people
+16,N_PERSONES_AGG,5,Cinc persones,Cinco personas,Five people
+16,N_PERSONES_AGG,6,Sis persones,Seis personas,Six people
+16,N_PERSONES_AGG,7,Set persones,Siete personas,Seven people
+16,N_PERSONES_AGG,8,Vuit persones,Ocho personas,Eight people
+16,N_PERSONES_AGG,9,Nou o més persones,Nueve o más personas,Nine or more people
+17,TIPUS_DOMICILI,1,Una dona de 18 a 64 anys,Una mujer de 18 a 64 años,One woman from 18 to 64 years old
+17,TIPUS_DOMICILI,2,Un home de 18 a 64 anys,Un hombre de 18 a 64 años,One man from 18 to 64 years old
+17,TIPUS_DOMICILI,3,Una dona de 65 anys i més,Una mujer de 65 años y más,One woman aged 65 and over
+17,TIPUS_DOMICILI,4,Un home de 65 anys i més,Un hombre de 65 años y más,One man aged 65 and over
+17,TIPUS_DOMICILI,5,Dues persones de 18 a 64 anys,Dos personas de 18 a 64 años,Two people aged 18 to 64
+17,TIPUS_DOMICILI,6,Dues persones de 65 anys i més,Dos personas de 65 años y más,Two people aged 65 and over
+17,TIPUS_DOMICILI,7,Dues persones: una de 18-64 anys i l'altra de 65 i més,Dos personas: una de 18-64 años y otra de 65 y más,Two people: one aged 18-64 and another aged 65 and over
+17,TIPUS_DOMICILI,8,Dues persones o més totes majors de 18 anys,Dos personas o más todas mayores de 18 años,Two or more people over 18 years of age
+17,TIPUS_DOMICILI,9,Dues persones o més: una dona de 18 anys i més amb altres menors de 18 anys,Dos personas o más: una mujer de 18 años y más con otros menores de 18 años,Two or more people: a woman aged 18 and over with others under age 18
+17,TIPUS_DOMICILI,10,Dues persones o més: un home de 18 anys i més amb altres menors de 18 anys,Dos personas o más: un hombre de 18 años y más con otros menores de 18 años,Two or more people: a man aged 18 and over with others under age 18
+17,TIPUS_DOMICILI,11,Tres persones o més: dues de 18 anys i més i la resta menors de 18 anys,Tres personas o más: Dos de 18 años y más y el resto menores de 18 años,Three or more people: Two aged 18 and over and the rest under age 18
+17,TIPUS_DOMICILI,12,Altres domicilis amb una o més persones menors de 18 anys,Otros domicilios con una o más personas menores de 18 años,Other households with one or more people under age 18
+18,DOM_00_18,1,Cap menor de 18 anys,Ningún menor de 18 años,No people under age 18
+18,DOM_00_18,2,Un menor de 18 anys,Un menor de 18 años,A person under age 18
+18,DOM_00_18,3,Dos menors de 18 anys,Dos menores de 18 años,Two people under age 18
+18,DOM_00_18,4,Tres menors de 18 anys,Tres menores de 18 años,Three people under age 18
+18,DOM_00_18,5,Quatre o més menors de 18 anys,Cuatro o más menores de 18 años,Four or more people under age 18
+19,DOM_18_64,1,Cap persona de 18 a 64 anys,Ninguna persona de 18 a 64 años,No people aged 18 to 64
+19,DOM_18_64,2,Una persona de 18 a 64 anys,Una persona de 18 a 64 años,One person aged 18 to 64
+19,DOM_18_64,3,Dues persones de 18 a 64 anys,Dos personas de 18 a 64 años,Two people aged 18 to 64
+19,DOM_18_64,4,Tres persones de 18 a 64 anys,Tres personas de 18 a 64 años,Three people aged 18 to 64
+19,DOM_18_64,5,Quatre persones o més de 18 a 64 anys,Cuatro personas o más de 18 a 64 años,Four people or more aged 18 to 64
+20,DOM_65_99,1,Cap persona de 65 anys i més,Ninguna persona de 65 años y más,No people aged 65 and over
+20,DOM_65_99,2,Una persona de 65 anys i més,Una persona de 65 años y más,One person aged 65 and over
+20,DOM_65_99,3,Dues persones de 65 anys i més,Dos personas de 65 años y más,Two people aged 65 and over
+20,DOM_65_99,4,Tres persones de 65 anys i més,Tres personas de 65 años y más,Three people aged 65 and over
+20,DOM_65_99,5,Quatre persones o més de 65 anys i més,Cuatro personas o más de 65 años y más,Four people or more aged 65 and over
+21,DOM_DONES,1,Cap dona,Ninguna mujer,No woman
+21,DOM_DONES,2,Una dona,Una mujer,A woman
+21,DOM_DONES,3,Dues dones,Dos mujeres,Two women
+21,DOM_DONES,4,Tres dones,Tres mujeres,Three women
+21,DOM_DONES,5,Quatre dones o més,Cuatro mujeres o más,Four women or more
+22,DOM_HOMES,1,Cap home,Ningún hombre,No man
+22,DOM_HOMES,2,Un home,Un hombre,One man
+22,DOM_HOMES,3,Dos homes,Dos hombres,Two men
+22,DOM_HOMES,4,Tres homes  ,Tres hombres,Three men
+22,DOM_HOMES,5,Quatre homes o més,Cuatro hombres o más,Four men or more
+23,NACIONALITAT_DOMICILI,1,Només nacionalitat espanyola,Solo nacionalidad española,Spanish nationality only
+23,NACIONALITAT_DOMICILI,2,Només nacionalitat estrangera,Solo nacionalidad extranjera,Foreign nationality only
+23,NACIONALITAT_DOMICILI,3,Mixtes,Mixtos,Mixed
+24,DOM_ESP,1,Cap persona espanyola,Ninguna persona española,No Spanish people
+24,DOM_ESP,2,Una persona espanyola,Una persona española,One Spanish person
+24,DOM_ESP,3,Dues persones espanyoles,Dos personas españolas,Two Spanish people
+24,DOM_ESP,4,Tres persones espanyoles,Tres personas españolas,Three Spanish people
+24,DOM_ESP,5,Quatre persones espanyoles o més,Cuatro personas españolas o más,Four Spanish people or more
+25,DOM_EST,1,Cap persona estrangera,Ninguna persona extranjera,No foreign people
+25,DOM_EST,2,Una persona estrangera,Una persona extranjera,One foreign person
+25,DOM_EST,3,Dues persones estrangeres,Dos personas extranjeras,Two foreign people
+25,DOM_EST,4,Tres persones estrangeres,Tres personas extranjeras,Three foreign people
+25,DOM_EST,5,Quatre persones estrangeres o més,Cuatro personas extranjeras o más,Four foreign people or more
+26,DOM_25_39,1,Cap persona de 25 a 39 anys,Ninguna persona de 25 a 39 años,No people aged 25 to 39
+26,DOM_25_39,2,Una persona de 25 a 39 anys,Una persona de 25 a 39 años,One person aged 25 to 39
+26,DOM_25_39,3,Dues persones de 25 a 39 anys,Dos personas de 25 a 39 años,Two people aged 25 to 39
+26,DOM_25_39,4,Tres persones de 25 a 39 anys,Tres personas de 25 a 39 años,Three people aged 25 to 39
+26,DOM_25_39,5,Quatre persones o més de 25 a 39 anys,Cuatro personas de 25 a 39 años o más,Four people or more aged 25 to 39
+27,DOM_40_64,1,Cap persona de 40 a 64 anys,Ninguna persona de 40 a 64 años,No people aged 40 to 64
+27,DOM_40_64,2,Una persona de 40 a 64 anys,Una persona de 40 a 64 años,One person aged 40 to 64
+27,DOM_40_64,3,Dues persones de 40 a 64 anys,Dos personas de 40 a 64 años,Two people aged 40 to 64
+27,DOM_40_64,4,Tres persones de 40 a 64 anys,Tres personas de 40 a 64 años,Three people aged 40 to 64
+27,DOM_40_64,5,Quatre persones o més de 40 a 64 anys,Cuatro personas de 40 a 64 años o más,Four people or more aged 40 to 64
+28,LLOC_NAIX_PAIS,1,Afganistan,Afganistán,Afghanistan
+28,LLOC_NAIX_PAIS,2,Aland,Islas Aland,Åland
+28,LLOC_NAIX_PAIS,3,Albània,Albania,Albania
+28,LLOC_NAIX_PAIS,4,Alemanya,Alemania,Germany
+28,LLOC_NAIX_PAIS,5,Algèria,Argelia,Algeria
+28,LLOC_NAIX_PAIS,6,Andorra,Andorra,Andorra
+28,LLOC_NAIX_PAIS,7,Angola,Angola,Angola
+28,LLOC_NAIX_PAIS,8,Anguilla,Anguilla,Anguilla
+28,LLOC_NAIX_PAIS,9,Antigua i Barbuda,Antigua y barbuda,Antigua and Barbuda
+28,LLOC_NAIX_PAIS,10,Aràbia Saudí,Arabia Saudí,Saudi Arabia
+28,LLOC_NAIX_PAIS,11,Argentina,Argentina,Argentina
+28,LLOC_NAIX_PAIS,12,Armènia,Armenia,Armenia
+28,LLOC_NAIX_PAIS,13,Aruba,Aruba,Aruba
+28,LLOC_NAIX_PAIS,14,Austràlia,Australia,Australia
+28,LLOC_NAIX_PAIS,15,Àustria,Austria,Austria
+28,LLOC_NAIX_PAIS,16,Azerbaidjan,Azerbaiyán,Azerbaijan
+28,LLOC_NAIX_PAIS,17,"Bahames, les",Bahamas,Bahamas
+28,LLOC_NAIX_PAIS,18,Bahrain,Bahréin,Bahrain
+28,LLOC_NAIX_PAIS,19,Bangladesh,Bangladesh,Bangladesh
+28,LLOC_NAIX_PAIS,20,Barbados,Barbados,Barbados
+28,LLOC_NAIX_PAIS,21,Belarús,Belarús,Belarus
+28,LLOC_NAIX_PAIS,22,Bèlgica,Bélgica,Belgium
+28,LLOC_NAIX_PAIS,23,Belize,Belice,Belize
+28,LLOC_NAIX_PAIS,24,Benín,Benin,Benin
+28,LLOC_NAIX_PAIS,25,Bermudes,Bermudas,Bermuda
+28,LLOC_NAIX_PAIS,26,Bhutan,Bhután,Bhutan
+28,LLOC_NAIX_PAIS,27,Bolívia,Bolivia,Bolivia
+28,LLOC_NAIX_PAIS,28,Bòsnia i Hercegovina,Bosnia y Herzegovina,Bosnia and Herzegovina
+28,LLOC_NAIX_PAIS,29,Botswana,Botswana,Botswana
+28,LLOC_NAIX_PAIS,30,Brasil,Brasil,Brazil
+28,LLOC_NAIX_PAIS,31,Brunei,Brunei,Brunei
+28,LLOC_NAIX_PAIS,32,Bulgària,Bulgaria,Bulgaria
+28,LLOC_NAIX_PAIS,33,Burkina Faso,Burkina Faso,Burkina Faso
+28,LLOC_NAIX_PAIS,34,Burundi,Burundi,Burundi
+28,LLOC_NAIX_PAIS,35,Cambodja,Camboya,Cambodia
+28,LLOC_NAIX_PAIS,36,Camerun,Camerún,Cameroon
+28,LLOC_NAIX_PAIS,37,Canadà,Canadá,Canada
+28,LLOC_NAIX_PAIS,38,Cap Verd,Cabo Verde,Cabo Verde
+28,LLOC_NAIX_PAIS,39,Colòmbia,Colombia,Colombia
+28,LLOC_NAIX_PAIS,40,"Comores, les",Comores,Comoros
+28,LLOC_NAIX_PAIS,41,Congo,Congo,Congo Republic
+28,LLOC_NAIX_PAIS,42,Corea del Nord,Corea del Norte,North Korea
+28,LLOC_NAIX_PAIS,43,Corea del Sud,Corea,South Korea
+28,LLOC_NAIX_PAIS,44,Costa d'Ivori,Costa de marfil,Ivory Coast
+28,LLOC_NAIX_PAIS,45,Costa Rica,Costa rica,Costa Rica
+28,LLOC_NAIX_PAIS,46,Croàcia,Croacia,Croatia
+28,LLOC_NAIX_PAIS,47,Cuba,Cuba,Cuba
+28,LLOC_NAIX_PAIS,48,Dinamarca,Dinamarca,Denmark
+28,LLOC_NAIX_PAIS,49,Djibouti,Djibouti,Djibouti
+28,LLOC_NAIX_PAIS,50,Dominica,Dominica,Dominica
+28,LLOC_NAIX_PAIS,51,Egipte,Egipto,Egypt
+28,LLOC_NAIX_PAIS,52,El Salvador,El Salvador,El Salvador
+28,LLOC_NAIX_PAIS,53,"Emirats Àrabs Units, els",Emiratos Árabes Unidos,United Arab Emirates
+28,LLOC_NAIX_PAIS,54,Equador,Ecuador,Ecuador
+28,LLOC_NAIX_PAIS,55,Eritrea,Eritrea,Eritrea
+28,LLOC_NAIX_PAIS,56,Eslovàquia,República Eslovaca,Slovakia
+28,LLOC_NAIX_PAIS,57,Eslovènia,Eslovenia,Slovenia
+28,LLOC_NAIX_PAIS,58,Espanya,España,Spain
+28,LLOC_NAIX_PAIS,59,"Estats Units, els","Estados Unidos, Los",United States
+28,LLOC_NAIX_PAIS,60,Estònia,Estonia,Estonia
+28,LLOC_NAIX_PAIS,61,Eswatini,Swazilandia,Eswatini
+28,LLOC_NAIX_PAIS,62,Etiòpia,Etiopía,Ethiopia
+28,LLOC_NAIX_PAIS,63,Fèroe,Islas Feroe,Faroe Islands
+28,LLOC_NAIX_PAIS,64,Fiji,Fiji,Fiji
+28,LLOC_NAIX_PAIS,65,Filipines,Filipinas,Philippines
+28,LLOC_NAIX_PAIS,66,Finlàndia,Finlandia,Finland
+28,LLOC_NAIX_PAIS,67,França,Francia,France
+28,LLOC_NAIX_PAIS,68,Gabon,Gabón,Gabon
+28,LLOC_NAIX_PAIS,69,Gàmbia,Gambia,Gambia
+28,LLOC_NAIX_PAIS,70,Geòrgia,Georgia,Georgia
+28,LLOC_NAIX_PAIS,71,Ghana,Ghana,Ghana
+28,LLOC_NAIX_PAIS,72,Gibraltar,Gibraltar,Gibraltar
+28,LLOC_NAIX_PAIS,73,Grècia,Grecia,Greece
+28,LLOC_NAIX_PAIS,74,Grenada,Granada,Grenada
+28,LLOC_NAIX_PAIS,75,Groenlàndia,Groenlandia,Greenland
+28,LLOC_NAIX_PAIS,76,Guadalupe,Guadalupe,Guadeloupe
+28,LLOC_NAIX_PAIS,77,Guaiana Francesa,Guayana Francesa,French Guiana
+28,LLOC_NAIX_PAIS,78,Guam,Guam,Guam
+28,LLOC_NAIX_PAIS,79,Guatemala,Guatemala,Guatemala
+28,LLOC_NAIX_PAIS,80,Guernsey,Guernsey,Guernsey
+28,LLOC_NAIX_PAIS,81,Guinea,Guinea,Guinea
+28,LLOC_NAIX_PAIS,82,Guinea Equatorial,Guinea Ecuatorial,Equatorial Guinea
+28,LLOC_NAIX_PAIS,83,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau
+28,LLOC_NAIX_PAIS,84,Guyana,Guyana,Guyana
+28,LLOC_NAIX_PAIS,85,Haití,Haití,Haiti
+28,LLOC_NAIX_PAIS,86,Hondures,Honduras,Honduras
+28,LLOC_NAIX_PAIS,87,"Hong Kong, Xina",Hong Kong,Hong Kong
+28,LLOC_NAIX_PAIS,88,Hongria,Hungría,Hungary
+28,LLOC_NAIX_PAIS,89,"Iemen, el",Yemen,Yemen
+28,LLOC_NAIX_PAIS,90,Illa de Man,Isla de Man,Isle of Man
+28,LLOC_NAIX_PAIS,91,Illa Norfolk,Isla Norfolk,Norfolk Island
+28,LLOC_NAIX_PAIS,92,Illes Caiman,Islas Caimán,Cayman Islands
+28,LLOC_NAIX_PAIS,93,Illes Cook,Islas Cook,Cook Islands
+28,LLOC_NAIX_PAIS,94,Illes Falkland (Malvines),Islas Malvinas,Falkland Islands
+28,LLOC_NAIX_PAIS,95,Illes Marianes del Nord,Islas Marianas del Norte,Northern Mariana Islands
+28,LLOC_NAIX_PAIS,96,Illes Marshall,Islas Marshall,Marshall Islands
+28,LLOC_NAIX_PAIS,97,Illes Salomó,Islas Salomón,Solomon Islands
+28,LLOC_NAIX_PAIS,98,Illes Turks i Caicos,Islas Turcas y Caicos,Turks and Caicos Islands
+28,LLOC_NAIX_PAIS,99,Illes Verges Britàniques,Islas Vírgenes Británicas,British Virgin Islands
+28,LLOC_NAIX_PAIS,100,Illes Verges dels Estats Units,Islas Vírgenes de los Estados Unidos,U.S. Virgin Islands
+28,LLOC_NAIX_PAIS,101,Índia,India,India
+28,LLOC_NAIX_PAIS,102,Indonèsia,Indonesia,Indonesia
+28,LLOC_NAIX_PAIS,103,Iran,Irán,Iran
+28,LLOC_NAIX_PAIS,104,"Iraq, l'",Iraq,Iraq
+28,LLOC_NAIX_PAIS,105,Irlanda,Irlanda,Ireland
+28,LLOC_NAIX_PAIS,106,Islàndia,Islandia,Iceland
+28,LLOC_NAIX_PAIS,107,Israel,Israel,Israel
+28,LLOC_NAIX_PAIS,108,Itàlia,Italia,Italy
+28,LLOC_NAIX_PAIS,109,Jamaica,Jamaica,Jamaica
+28,LLOC_NAIX_PAIS,110,Japó,Japón,Japan
+28,LLOC_NAIX_PAIS,111,Jersey,Jersey,Jersey
+28,LLOC_NAIX_PAIS,112,Jordània,Jordania,Jordan
+28,LLOC_NAIX_PAIS,113,Kazakhstan,Kazajstán,Kazakhstan
+28,LLOC_NAIX_PAIS,114,Kenya,Kenia,Kenya
+28,LLOC_NAIX_PAIS,115,Kirguizstan,Kirguistán,Kyrgyzstan
+28,LLOC_NAIX_PAIS,116,Kiribati,Kiribati,Kiribati
+28,LLOC_NAIX_PAIS,117,Kuwait,Kuwait,Kuwait
+28,LLOC_NAIX_PAIS,118,Lao,Laos,Laos
+28,LLOC_NAIX_PAIS,119,Lesotho,Lesotho,Lesotho
+28,LLOC_NAIX_PAIS,120,Letònia,Letonia,Latvia
+28,LLOC_NAIX_PAIS,121,Líban,Líbano,Lebanon
+28,LLOC_NAIX_PAIS,122,Libèria,Liberia,Liberia
+28,LLOC_NAIX_PAIS,123,Líbia,Libia,Libya
+28,LLOC_NAIX_PAIS,124,Liechtenstein,Liechtenstein,Liechtenstein
+28,LLOC_NAIX_PAIS,125,Lituània,Lituania,Lithuania
+28,LLOC_NAIX_PAIS,126,Luxemburg,Luxemburgo,Luxembourg
+28,LLOC_NAIX_PAIS,127,"Macao, Xina",Macao,Macao
+28,LLOC_NAIX_PAIS,128,Macedònia,Macedonia,North Macedonia
+28,LLOC_NAIX_PAIS,129,Madagascar,Madagascar,Madagascar
+28,LLOC_NAIX_PAIS,130,Malàisia,Malasia,Malaysia
+28,LLOC_NAIX_PAIS,131,Malawi,Malawi,Malawi
+28,LLOC_NAIX_PAIS,132,Maldives,Maldivas,Maldives
+28,LLOC_NAIX_PAIS,133,Mali,Mali,Mali
+28,LLOC_NAIX_PAIS,134,Malta,Malta,Malta
+28,LLOC_NAIX_PAIS,135,"Marroc, el",Marruecos,Morocco
+28,LLOC_NAIX_PAIS,136,Martinica,Martinica,Martinique
+28,LLOC_NAIX_PAIS,137,Maurici,Mauricio,Mauritius
+28,LLOC_NAIX_PAIS,138,Mauritània,Mauritania,Mauritania
+28,LLOC_NAIX_PAIS,139,Mayotte,Mayotte,Mayotte
+28,LLOC_NAIX_PAIS,140,Mèxic,México,Mexico
+28,LLOC_NAIX_PAIS,141,Micronèsia,Micronesia,Micronesia
+28,LLOC_NAIX_PAIS,142,Moçambic,Mozambique,Mozambique
+28,LLOC_NAIX_PAIS,143,Moldàvia,Moldavia,Moldova
+28,LLOC_NAIX_PAIS,144,Mònaco,Mónaco,Monaco
+28,LLOC_NAIX_PAIS,145,Mongòlia,Mongolia,Mongolia
+28,LLOC_NAIX_PAIS,146,Montenegro,Montenegro,Montenegro
+28,LLOC_NAIX_PAIS,147,Montserrat,Montserrat,Montserrat
+28,LLOC_NAIX_PAIS,148,Myanmar,Myanmar,Myanmar
+28,LLOC_NAIX_PAIS,149,Namíbia,Namibia,Namibia
+28,LLOC_NAIX_PAIS,150,Nauru,Nauru,Nauru
+28,LLOC_NAIX_PAIS,151,Nepal,Nepal,Nepal
+28,LLOC_NAIX_PAIS,152,Nicaragua,Nicaragua,Nicaragua
+28,LLOC_NAIX_PAIS,153,Níger,Níger,Niger
+28,LLOC_NAIX_PAIS,154,Nigèria,Nigeria,Nigeria
+28,LLOC_NAIX_PAIS,155,Niue,Niue,Niue
+28,LLOC_NAIX_PAIS,156,Noruega,Noruega,Norway
+28,LLOC_NAIX_PAIS,157,Nova Caledònia,Nueva Caledonia,New Caledonia
+28,LLOC_NAIX_PAIS,158,Nova Zelanda,Nueva Zelanda,New Zealand
+28,LLOC_NAIX_PAIS,159,Oman,Omán,Oman
+28,LLOC_NAIX_PAIS,160,Països Baixos,Países Bajos,Netherlands
+28,LLOC_NAIX_PAIS,161,Pakistan,Pakistán,Pakistan
+28,LLOC_NAIX_PAIS,162,Palau,Palaos,Palau
+28,LLOC_NAIX_PAIS,163,Palestina,"Palestina. Estado Observador, no miembro de Naciones Unidas",Palestine
+28,LLOC_NAIX_PAIS,164,Panamà,Panamá,Panama
+28,LLOC_NAIX_PAIS,165,Papua Nova Guinea,Papúa Nueva Guinea,Papua New Guinea
+28,LLOC_NAIX_PAIS,166,Paraguai,Paraguay,Paraguay
+28,LLOC_NAIX_PAIS,167,Perú,Perú,Peru
+28,LLOC_NAIX_PAIS,168,Pitcairn,Islas Pitcairn,Pitcairn Islands
+28,LLOC_NAIX_PAIS,169,Polinèsia Francesa,Polinesia Francesa,French Polynesia
+28,LLOC_NAIX_PAIS,170,Polònia,Polonia,Poland
+28,LLOC_NAIX_PAIS,171,Portugal,Portugal,Portugal
+28,LLOC_NAIX_PAIS,172,Puerto Rico,Puerto Rico,Puerto Rico
+28,LLOC_NAIX_PAIS,173,Qatar,Qatar,Qatar
+28,LLOC_NAIX_PAIS,174,Regne Unit,Reino Unido,United Kingdom
+28,LLOC_NAIX_PAIS,175,República Centreafricana,República Centroafricana,Central African Republic
+28,LLOC_NAIX_PAIS,176,República Democràtica del Congo,República Democrática del Congo,DR Congo
+28,LLOC_NAIX_PAIS,177,República Dominicana,República Dominicana,Dominican Republic
+28,LLOC_NAIX_PAIS,178,"Reunió, la",Reunión,Réunion
+28,LLOC_NAIX_PAIS,179,Romania,Rumanía,Romania
+28,LLOC_NAIX_PAIS,180,Ruanda,Ruanda,Rwanda
+28,LLOC_NAIX_PAIS,181,Rússia,Rusia,Russia
+28,LLOC_NAIX_PAIS,182,Sàhara Occidental,Sahara Occidental,Western Sahara
+28,LLOC_NAIX_PAIS,183,"Saint Helena, Ascenció i Tristan da Cunha",Santa Helena,Saint Helena
+28,LLOC_NAIX_PAIS,184,Saint Kitts i Nevis,San Cristóbal y Nieves,St Kitts and Nevis
+28,LLOC_NAIX_PAIS,185,Saint Lucia,Santa Lucía,Saint Lucia
+28,LLOC_NAIX_PAIS,186,Saint Vincent i les Grenadines,San Vicente y las Granadinas,St Vincent and Grenadines
+28,LLOC_NAIX_PAIS,187,Saint-Barthélemy,San Bartolomé,Saint Barthélemy
+28,LLOC_NAIX_PAIS,188,Saint-Martin,San Martín (parte francesa),Saint Martin
+28,LLOC_NAIX_PAIS,189,Saint-Pierre-et-Miquelon,San Pedro y Miquelón,Saint Pierre and Miquelon
+28,LLOC_NAIX_PAIS,190,Samoa,Samoa,Samoa
+28,LLOC_NAIX_PAIS,191,Samoa Americana,Samoa Americana,American Samoa
+28,LLOC_NAIX_PAIS,192,San Marino,San Marino,San Marino
+28,LLOC_NAIX_PAIS,193,Santa Seu,Santa sede,Vatican City
+28,LLOC_NAIX_PAIS,194,São Tomé i Príncipe,Santo tomé y Príncipe,São Tomé and Príncipe
+28,LLOC_NAIX_PAIS,195,Senegal,Senegal,Senegal
+28,LLOC_NAIX_PAIS,196,Sèrbia,Serbia,Serbia
+28,LLOC_NAIX_PAIS,197,Seychelles,Seychelles,Seychelles
+28,LLOC_NAIX_PAIS,198,Sierra Leone,Sierra leona,Sierra Leone
+28,LLOC_NAIX_PAIS,199,Singapur,Singapur,Singapore
+28,LLOC_NAIX_PAIS,200,Síria,Siria,Syria
+28,LLOC_NAIX_PAIS,201,Somàlia,Somalia,Somalia
+28,LLOC_NAIX_PAIS,202,Sri Lanka,Sri Lanka,Sri Lanka
+28,LLOC_NAIX_PAIS,203,Sud-àfrica,Sudáfrica,South Africa
+28,LLOC_NAIX_PAIS,204,"Sudan del Sud, el",Sudán del Sur,South Sudan
+28,LLOC_NAIX_PAIS,205,"Sudan, el",Sudán,Sudan
+28,LLOC_NAIX_PAIS,206,Suècia,Suecia,Sweden
+28,LLOC_NAIX_PAIS,207,Suïssa,Suiza,Switzerland
+28,LLOC_NAIX_PAIS,208,Surinam,Surinam,Suriname
+28,LLOC_NAIX_PAIS,209,Svalbard i Jan Mayen,Svalbard y Jan Mayen,Svalbard and Jan Mayen
+28,LLOC_NAIX_PAIS,210,Tadjikistan,Tayikistán,Tajikistan
+28,LLOC_NAIX_PAIS,211,Tailàndia,Tailandia,Thailand
+28,LLOC_NAIX_PAIS,212,"Taiwan,Xina",Taiwán,Taiwan
+28,LLOC_NAIX_PAIS,213,Tanzània,Tanzania,Tanzania
+28,LLOC_NAIX_PAIS,214,Timor-Leste,Timor Oriental,Timor-Leste
+28,LLOC_NAIX_PAIS,215,Togo,Togo,Togo
+28,LLOC_NAIX_PAIS,216,Tokelau,Tokelau,Tokelau
+28,LLOC_NAIX_PAIS,217,Tonga,Tonga,Tonga
+28,LLOC_NAIX_PAIS,218,Trinidad i Tobago,Trinidad y Tobago,Trinidad and Tobago
+28,LLOC_NAIX_PAIS,219,Tunísia,Túnez,Tunisia
+28,LLOC_NAIX_PAIS,220,Turkmenistan,Turkmenistán,Turkmenistan
+28,LLOC_NAIX_PAIS,221,Turquia,Turquía,Turkey
+28,LLOC_NAIX_PAIS,222,Tuvalu,Tuvalu,Tuvalu
+28,LLOC_NAIX_PAIS,223,Txad,Chad,Chad
+28,LLOC_NAIX_PAIS,224,Txèquia,República Checa,Czechia
+28,LLOC_NAIX_PAIS,225,Ucraïna,Ucrania,Ukraine
+28,LLOC_NAIX_PAIS,226,Uganda,Uganda,Uganda
+28,LLOC_NAIX_PAIS,227,Uruguai,Uruguay,Uruguay
+28,LLOC_NAIX_PAIS,228,Uzbekistan,Uzbekistán,Uzbekistan
+28,LLOC_NAIX_PAIS,229,Vanuatu,Vanuatu,Vanuatu
+28,LLOC_NAIX_PAIS,230,Veneçuela,Venezuela,Venezuela
+28,LLOC_NAIX_PAIS,231,Vietnam,Vietnam,Vietnam
+28,LLOC_NAIX_PAIS,232,Wallis i Futuna,Wallis y Fortuna,Wallis and Futuna
+28,LLOC_NAIX_PAIS,233,Xile,Chile,Chile
+28,LLOC_NAIX_PAIS,234,Xina,China,China
+28,LLOC_NAIX_PAIS,235,Xipre,Chipre,Cyprus
+28,LLOC_NAIX_PAIS,236,Zàmbia,Zambia,Zambia
+28,LLOC_NAIX_PAIS,237,Zimbàbue,Zimbabwe,Zimbabwe
+28,LLOC_NAIX_PAIS,999,No consta,No consta,Not available
+29,LLOC_NAIX_CONTINENT,1,Àfrica,África,Africa
+29,LLOC_NAIX_CONTINENT,2,Amèrica,América,Americas
+29,LLOC_NAIX_CONTINENT,3,Àsia,Asia,Asia
+29,LLOC_NAIX_CONTINENT,4,Europa,Europa,Europe
+29,LLOC_NAIX_CONTINENT,5,Oceania,Oceania,Oceania
+29,LLOC_NAIX_CONTINENT,999,No consta,No consta,Not available
+30,LLOC_NAIX_MUNI,1,Barcelona (Barcelona),Barcelona (Barcelona),Barcelona (Barcelona)
+30,LLOC_NAIX_MUNI,3,Madrid (Madrid),Madrid (Madrid),Madrid (Madrid)
+30,LLOC_NAIX_MUNI,4,"Hospitalet de Llobregat, l' (Barcelona)","Hospitalet de Llobregat, l' (Barcelona)","Hospitalet de Llobregat, l' (Barcelona)"
+30,LLOC_NAIX_MUNI,5,Badalona (Barcelona),Badalona (Barcelona),Badalona (Barcelona)
+30,LLOC_NAIX_MUNI,6,Zaragoza (Saragossa),Zaragoza (Saragossa),Zaragoza (Saragossa)
+30,LLOC_NAIX_MUNI,7,Lleida (Lleida),Lleida (Lleida),Lleida (Lleida)
+30,LLOC_NAIX_MUNI,8,Valencia (València),Valencia (València),Valencia (València)
+30,LLOC_NAIX_MUNI,9,Sevilla (Sevilla),Sevilla (Sevilla),Sevilla (Sevilla)
+30,LLOC_NAIX_MUNI,10,Esplugues de Llobregat (Barcelona),Esplugues de Llobregat (Barcelona),Esplugues de Llobregat (Barcelona)
+30,LLOC_NAIX_MUNI,11,Sabadell (Barcelona),Sabadell (Barcelona),Sabadell (Barcelona)
+30,LLOC_NAIX_MUNI,12,Santa Coloma de Gramenet (Barcelona),Santa Coloma de Gramenet (Barcelona),Santa Coloma de Gramenet (Barcelona)
+30,LLOC_NAIX_MUNI,13,Granada (Granada),Granada (Granada),Granada (Granada)
+30,LLOC_NAIX_MUNI,14,Málaga (Màlaga),Málaga (Màlaga),Málaga (Màlaga)
+30,LLOC_NAIX_MUNI,15,Terrassa (Barcelona),Terrassa (Barcelona),Terrassa (Barcelona)
+30,LLOC_NAIX_MUNI,16,Tarragona (Tarragona),Tarragona (Tarragona),Tarragona (Tarragona)
+30,LLOC_NAIX_MUNI,17,Córdoba (Còrdova),Córdoba (Còrdova),Córdoba (Còrdova)
+30,LLOC_NAIX_MUNI,18,Almería (Almeria),Almería (Almeria),Almería (Almeria)
+30,LLOC_NAIX_MUNI,19,Girona (Girona),Girona (Girona),Girona (Girona)
+30,LLOC_NAIX_MUNI,20,Manresa (Barcelona),Manresa (Barcelona),Manresa (Barcelona)
+30,LLOC_NAIX_MUNI,21,Valladolid (Valladolid),Valladolid (Valladolid),Valladolid (Valladolid)
+30,LLOC_NAIX_MUNI,22,Cartagena (Múrcia),Cartagena (Múrcia),Cartagena (Múrcia)
+30,LLOC_NAIX_MUNI,23,Bilbao (Biscaia),Bilbao (Biscaia),Bilbao (Biscaia)
+30,LLOC_NAIX_MUNI,24,Reus (Tarragona),Reus (Tarragona),Reus (Tarragona)
+30,LLOC_NAIX_MUNI,25,Melilla (Melilla),Melilla (Melilla),Melilla (Melilla)
+30,LLOC_NAIX_MUNI,26,Murcia (Múrcia),Murcia (Múrcia),Murcia (Múrcia)
+30,LLOC_NAIX_MUNI,27,Lugo (Lugo),Lugo (Lugo),Lugo (Lugo)
+30,LLOC_NAIX_MUNI,28,Tortosa (Tarragona),Tortosa (Tarragona),Tortosa (Tarragona)
+30,LLOC_NAIX_MUNI,29,Palma de Mallorca (Illes Balears),Palma de Mallorca (Illes Balears),Palma de Mallorca (Illes Balears)
+30,LLOC_NAIX_MUNI,30,Ourense (Ourense),Ourense (Ourense),Ourense (Ourense)
+30,LLOC_NAIX_MUNI,31,Mataró (Barcelona),Mataró (Barcelona),Mataró (Barcelona)
+30,LLOC_NAIX_MUNI,32,Badajoz (Badajoz),Badajoz (Badajoz),Badajoz (Badajoz)
+30,LLOC_NAIX_MUNI,33,Salamanca (Salamanca),Salamanca (Salamanca),Salamanca (Salamanca)
+30,LLOC_NAIX_MUNI,34,Linares (Jaén),Linares (Jaén),Linares (Jaén)
+30,LLOC_NAIX_MUNI,35,Vic (Barcelona),Vic (Barcelona),Vic (Barcelona)
+30,LLOC_NAIX_MUNI,36,Jaén (Jaén),Jaén (Jaén),Jaén (Jaén)
+30,LLOC_NAIX_MUNI,37,León (Lleó),León (Lleó),León (Lleó)
+30,LLOC_NAIX_MUNI,38,Burgos (Burgos),Burgos (Burgos),Burgos (Burgos)
+30,LLOC_NAIX_MUNI,39,Huesca (Osca),Huesca (Osca),Huesca (Osca)
+30,LLOC_NAIX_MUNI,40,Donostia/San Sebastián (Guipúscoa),Donostia/San Sebastián (Guipúscoa),Donostia/San Sebastián (Guipúscoa)
+30,LLOC_NAIX_MUNI,41,Santander (Cantàbria),Santander (Cantàbria),Santander (Cantàbria)
+30,LLOC_NAIX_MUNI,42,Pamplona/Iruña (Navarra),Pamplona/Iruña (Navarra),Pamplona/Iruña (Navarra)
+30,LLOC_NAIX_MUNI,43,"Coruña, A (Corunya, la)","Coruña, A (Corunya, la)","Coruña, A (Corunya, la)"
+30,LLOC_NAIX_MUNI,44,Granollers (Barcelona),Granollers (Barcelona),Granollers (Barcelona)
+30,LLOC_NAIX_MUNI,45,Igualada (Barcelona),Igualada (Barcelona),Igualada (Barcelona)
+30,LLOC_NAIX_MUNI,46,Oviedo (Astúries),Oviedo (Astúries),Oviedo (Astúries)
+30,LLOC_NAIX_MUNI,47,Cádiz (Cadis),Cádiz (Cadis),Cádiz (Cadis)
+30,LLOC_NAIX_MUNI,48,Alicante/Alacant (Alacant),Alicante/Alacant (Alacant),Alicante/Alacant (Alacant)
+30,LLOC_NAIX_MUNI,49,Castellón de la Plana/Castelló de la Plana (Castelló de la Plana),Castellón de la Plana/Castelló de la Plana (Castelló de la Plana),Castellón de la Plana/Castelló de la Plana (Castelló de la Plana)
+30,LLOC_NAIX_MUNI,50,Vilanova i la Geltrú (Barcelona),Vilanova i la Geltrú (Barcelona),Vilanova i la Geltrú (Barcelona)
+30,LLOC_NAIX_MUNI,51,Altres municipis,Otros municipios,Other municipality
+30,LLOC_NAIX_MUNI,99,Estranger,Estrangero,Foreign
+31,NACIONALITAT_PAIS,1,Afganistan,Afganistán,Afghanistan
+31,NACIONALITAT_PAIS,2,Aland,Islas Aland,Åland
+31,NACIONALITAT_PAIS,3,Albània,Albania,Albania
+31,NACIONALITAT_PAIS,4,Alemanya,Alemania,Germany
+31,NACIONALITAT_PAIS,5,Algèria,Argelia,Algeria
+31,NACIONALITAT_PAIS,6,Andorra,Andorra,Andorra
+31,NACIONALITAT_PAIS,7,Angola,Angola,Angola
+31,NACIONALITAT_PAIS,8,Anguilla,Anguilla,Anguilla
+31,NACIONALITAT_PAIS,9,Antigua i Barbuda,Antigua y barbuda,Antigua and Barbuda
+31,NACIONALITAT_PAIS,10,Aràbia Saudí,Arabia Saudí,Saudi Arabia
+31,NACIONALITAT_PAIS,11,Argentina,Argentina,Argentina
+31,NACIONALITAT_PAIS,12,Armènia,Armenia,Armenia
+31,NACIONALITAT_PAIS,13,Aruba,Aruba,Aruba
+31,NACIONALITAT_PAIS,14,Austràlia,Australia,Australia
+31,NACIONALITAT_PAIS,15,Àustria,Austria,Austria
+31,NACIONALITAT_PAIS,16,Azerbaidjan,Azerbaiyán,Azerbaijan
+31,NACIONALITAT_PAIS,17,"Bahames, les",Bahamas,Bahamas
+31,NACIONALITAT_PAIS,18,Bahrain,Bahréin,Bahrain
+31,NACIONALITAT_PAIS,19,Bangladesh,Bangladesh,Bangladesh
+31,NACIONALITAT_PAIS,20,Barbados,Barbados,Barbados
+31,NACIONALITAT_PAIS,21,Belarús,Belarús,Belarus
+31,NACIONALITAT_PAIS,22,Bèlgica,Bélgica,Belgium
+31,NACIONALITAT_PAIS,23,Belize,Belice,Belize
+31,NACIONALITAT_PAIS,24,Benín,Benin,Benin
+31,NACIONALITAT_PAIS,25,Bermudes,Bermudas,Bermuda
+31,NACIONALITAT_PAIS,26,Bhutan,Bhután,Bhutan
+31,NACIONALITAT_PAIS,27,Bolívia,Bolivia,Bolivia
+31,NACIONALITAT_PAIS,28,Bòsnia i Hercegovina,Bosnia y Herzegovina,Bosnia and Herzegovina
+31,NACIONALITAT_PAIS,29,Botswana,Botswana,Botswana
+31,NACIONALITAT_PAIS,30,Brasil,Brasil,Brazil
+31,NACIONALITAT_PAIS,31,Brunei,Brunei,Brunei
+31,NACIONALITAT_PAIS,32,Bulgària,Bulgaria,Bulgaria
+31,NACIONALITAT_PAIS,33,Burkina Faso,Burkina Faso,Burkina Faso
+31,NACIONALITAT_PAIS,34,Burundi,Burundi,Burundi
+31,NACIONALITAT_PAIS,35,Cambodja,Camboya,Cambodia
+31,NACIONALITAT_PAIS,36,Camerun,Camerún,Cameroon
+31,NACIONALITAT_PAIS,37,Canadà,Canadá,Canada
+31,NACIONALITAT_PAIS,38,Cap Verd,Cabo Verde,Cabo Verde
+31,NACIONALITAT_PAIS,39,Colòmbia,Colombia,Colombia
+31,NACIONALITAT_PAIS,40,"Comores, les",Comores,Comoros
+31,NACIONALITAT_PAIS,41,Congo,Congo,Congo Republic
+31,NACIONALITAT_PAIS,42,Corea del Nord,Corea del Norte,North Korea
+31,NACIONALITAT_PAIS,43,Corea del Sud,Corea,South Korea
+31,NACIONALITAT_PAIS,44,Costa d'Ivori,Costa de marfil,Ivory Coast
+31,NACIONALITAT_PAIS,45,Costa Rica,Costa rica,Costa Rica
+31,NACIONALITAT_PAIS,46,Croàcia,Croacia,Croatia
+31,NACIONALITAT_PAIS,47,Cuba,Cuba,Cuba
+31,NACIONALITAT_PAIS,48,Dinamarca,Dinamarca,Denmark
+31,NACIONALITAT_PAIS,49,Djibouti,Djibouti,Djibouti
+31,NACIONALITAT_PAIS,50,Dominica,Dominica,Dominica
+31,NACIONALITAT_PAIS,51,Egipte,Egipto,Egypt
+31,NACIONALITAT_PAIS,52,El Salvador,El Salvador,El Salvador
+31,NACIONALITAT_PAIS,53,"Emirats Àrabs Units, els",Emiratos Árabes Unidos,United Arab Emirates
+31,NACIONALITAT_PAIS,54,Equador,Ecuador,Ecuador
+31,NACIONALITAT_PAIS,55,Eritrea,Eritrea,Eritrea
+31,NACIONALITAT_PAIS,56,Eslovàquia,República Eslovaca,Slovakia
+31,NACIONALITAT_PAIS,57,Eslovènia,Eslovenia,Slovenia
+31,NACIONALITAT_PAIS,58,Espanya,España,Spain
+31,NACIONALITAT_PAIS,59,"Estats Units, els","Estados Unidos, Los",United States
+31,NACIONALITAT_PAIS,60,Estònia,Estonia,Estonia
+31,NACIONALITAT_PAIS,61,Eswatini,Swazilandia,Eswatini
+31,NACIONALITAT_PAIS,62,Etiòpia,Etiopía,Ethiopia
+31,NACIONALITAT_PAIS,63,Fèroe,Islas Feroe,Faroe Islands
+31,NACIONALITAT_PAIS,64,Fiji,Fiji,Fiji
+31,NACIONALITAT_PAIS,65,Filipines,Filipinas,Philippines
+31,NACIONALITAT_PAIS,66,Finlàndia,Finlandia,Finland
+31,NACIONALITAT_PAIS,67,França,Francia,France
+31,NACIONALITAT_PAIS,68,Gabon,Gabón,Gabon
+31,NACIONALITAT_PAIS,69,Gàmbia,Gambia,Gambia
+31,NACIONALITAT_PAIS,70,Geòrgia,Georgia,Georgia
+31,NACIONALITAT_PAIS,71,Ghana,Ghana,Ghana
+31,NACIONALITAT_PAIS,72,Gibraltar,Gibraltar,Gibraltar
+31,NACIONALITAT_PAIS,73,Grècia,Grecia,Greece
+31,NACIONALITAT_PAIS,74,Grenada,Granada,Grenada
+31,NACIONALITAT_PAIS,75,Groenlàndia,Groenlandia,Greenland
+31,NACIONALITAT_PAIS,76,Guadalupe,Guadalupe,Guadeloupe
+31,NACIONALITAT_PAIS,77,Guaiana Francesa,Guayana Francesa,French Guiana
+31,NACIONALITAT_PAIS,78,Guam,Guam,Guam
+31,NACIONALITAT_PAIS,79,Guatemala,Guatemala,Guatemala
+31,NACIONALITAT_PAIS,80,Guernsey,Guernsey,Guernsey
+31,NACIONALITAT_PAIS,81,Guinea,Guinea,Guinea
+31,NACIONALITAT_PAIS,82,Guinea Equatorial,Guinea Ecuatorial,Equatorial Guinea
+31,NACIONALITAT_PAIS,83,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau
+31,NACIONALITAT_PAIS,84,Guyana,Guyana,Guyana
+31,NACIONALITAT_PAIS,85,Haití,Haití,Haiti
+31,NACIONALITAT_PAIS,86,Hondures,Honduras,Honduras
+31,NACIONALITAT_PAIS,87,"Hong Kong, Xina",Hong Kong,Hong Kong
+31,NACIONALITAT_PAIS,88,Hongria,Hungría,Hungary
+31,NACIONALITAT_PAIS,89,"Iemen, el",Yemen,Yemen
+31,NACIONALITAT_PAIS,90,Illa de Man,Isla de Man,Isle of Man
+31,NACIONALITAT_PAIS,91,Illa Norfolk,Isla Norfolk,Norfolk Island
+31,NACIONALITAT_PAIS,92,Illes Caiman,Islas Caimán,Cayman Islands
+31,NACIONALITAT_PAIS,93,Illes Cook,Islas Cook,Cook Islands
+31,NACIONALITAT_PAIS,94,Illes Falkland (Malvines),Islas Malvinas,Falkland Islands
+31,NACIONALITAT_PAIS,95,Illes Marianes del Nord,Islas Marianas del Norte,Northern Mariana Islands
+31,NACIONALITAT_PAIS,96,Illes Marshall,Islas Marshall,Marshall Islands
+31,NACIONALITAT_PAIS,97,Illes Salomó,Islas Salomón,Solomon Islands
+31,NACIONALITAT_PAIS,98,Illes Turks i Caicos,Islas Turcas y Caicos,Turks and Caicos Islands
+31,NACIONALITAT_PAIS,99,Illes Verges Britàniques,Islas Vírgenes Británicas,British Virgin Islands
+31,NACIONALITAT_PAIS,100,Illes Verges dels Estats Units,Islas Vírgenes de los Estados Unidos,U.S. Virgin Islands
+31,NACIONALITAT_PAIS,101,Índia,India,India
+31,NACIONALITAT_PAIS,102,Indonèsia,Indonesia,Indonesia
+31,NACIONALITAT_PAIS,103,Iran,Irán,Iran
+31,NACIONALITAT_PAIS,104,"Iraq, l'",Iraq,Iraq
+31,NACIONALITAT_PAIS,105,Irlanda,Irlanda,Ireland
+31,NACIONALITAT_PAIS,106,Islàndia,Islandia,Iceland
+31,NACIONALITAT_PAIS,107,Israel,Israel,Israel
+31,NACIONALITAT_PAIS,108,Itàlia,Italia,Italy
+31,NACIONALITAT_PAIS,109,Jamaica,Jamaica,Jamaica
+31,NACIONALITAT_PAIS,110,Japó,Japón,Japan
+31,NACIONALITAT_PAIS,111,Jersey,Jersey,Jersey
+31,NACIONALITAT_PAIS,112,Jordània,Jordania,Jordan
+31,NACIONALITAT_PAIS,113,Kazakhstan,Kazajstán,Kazakhstan
+31,NACIONALITAT_PAIS,114,Kenya,Kenia,Kenya
+31,NACIONALITAT_PAIS,115,Kirguizstan,Kirguistán,Kyrgyzstan
+31,NACIONALITAT_PAIS,116,Kiribati,Kiribati,Kiribati
+31,NACIONALITAT_PAIS,117,Kuwait,Kuwait,Kuwait
+31,NACIONALITAT_PAIS,118,Lao,Laos,Laos
+31,NACIONALITAT_PAIS,119,Lesotho,Lesotho,Lesotho
+31,NACIONALITAT_PAIS,120,Letònia,Letonia,Latvia
+31,NACIONALITAT_PAIS,121,Líban,Líbano,Lebanon
+31,NACIONALITAT_PAIS,122,Libèria,Liberia,Liberia
+31,NACIONALITAT_PAIS,123,Líbia,Libia,Libya
+31,NACIONALITAT_PAIS,124,Liechtenstein,Liechtenstein,Liechtenstein
+31,NACIONALITAT_PAIS,125,Lituània,Lituania,Lithuania
+31,NACIONALITAT_PAIS,126,Luxemburg,Luxemburgo,Luxembourg
+31,NACIONALITAT_PAIS,127,"Macao, Xina",Macao,Macao
+31,NACIONALITAT_PAIS,128,Macedònia,Macedonia,North Macedonia
+31,NACIONALITAT_PAIS,129,Madagascar,Madagascar,Madagascar
+31,NACIONALITAT_PAIS,130,Malàisia,Malasia,Malaysia
+31,NACIONALITAT_PAIS,131,Malawi,Malawi,Malawi
+31,NACIONALITAT_PAIS,132,Maldives,Maldivas,Maldives
+31,NACIONALITAT_PAIS,133,Mali,Mali,Mali
+31,NACIONALITAT_PAIS,134,Malta,Malta,Malta
+31,NACIONALITAT_PAIS,135,"Marroc, el",Marruecos,Morocco
+31,NACIONALITAT_PAIS,136,Martinica,Martinica,Martinique
+31,NACIONALITAT_PAIS,137,Maurici,Mauricio,Mauritius
+31,NACIONALITAT_PAIS,138,Mauritània,Mauritania,Mauritania
+31,NACIONALITAT_PAIS,139,Mayotte,Mayotte,Mayotte
+31,NACIONALITAT_PAIS,140,Mèxic,México,Mexico
+31,NACIONALITAT_PAIS,141,Micronèsia,Micronesia,Micronesia
+31,NACIONALITAT_PAIS,142,Moçambic,Mozambique,Mozambique
+31,NACIONALITAT_PAIS,143,Moldàvia,Moldavia,Moldova
+31,NACIONALITAT_PAIS,144,Mònaco,Mónaco,Monaco
+31,NACIONALITAT_PAIS,145,Mongòlia,Mongolia,Mongolia
+31,NACIONALITAT_PAIS,146,Montenegro,Montenegro,Montenegro
+31,NACIONALITAT_PAIS,147,Montserrat,Montserrat,Montserrat
+31,NACIONALITAT_PAIS,148,Myanmar,Myanmar,Myanmar
+31,NACIONALITAT_PAIS,149,Namíbia,Namibia,Namibia
+31,NACIONALITAT_PAIS,150,Nauru,Nauru,Nauru
+31,NACIONALITAT_PAIS,151,Nepal,Nepal,Nepal
+31,NACIONALITAT_PAIS,152,Nicaragua,Nicaragua,Nicaragua
+31,NACIONALITAT_PAIS,153,Níger,Níger,Niger
+31,NACIONALITAT_PAIS,154,Nigèria,Nigeria,Nigeria
+31,NACIONALITAT_PAIS,155,Niue,Niue,Niue
+31,NACIONALITAT_PAIS,156,Noruega,Noruega,Norway
+31,NACIONALITAT_PAIS,157,Nova Caledònia,Nueva Caledonia,New Caledonia
+31,NACIONALITAT_PAIS,158,Nova Zelanda,Nueva Zelanda,New Zealand
+31,NACIONALITAT_PAIS,159,Oman,Omán,Oman
+31,NACIONALITAT_PAIS,160,Països Baixos,Países Bajos,Netherlands
+31,NACIONALITAT_PAIS,161,Pakistan,Pakistán,Pakistan
+31,NACIONALITAT_PAIS,162,Palau,Palaos,Palau
+31,NACIONALITAT_PAIS,163,Palestina,"Palestina. Estado Observador, no miembro de Naciones Unidas",Palestine
+31,NACIONALITAT_PAIS,164,Panamà,Panamá,Panama
+31,NACIONALITAT_PAIS,165,Papua Nova Guinea,Papúa Nueva Guinea,Papua New Guinea
+31,NACIONALITAT_PAIS,166,Paraguai,Paraguay,Paraguay
+31,NACIONALITAT_PAIS,167,Perú,Perú,Peru
+31,NACIONALITAT_PAIS,168,Pitcairn,Islas Pitcairn,Pitcairn Islands
+31,NACIONALITAT_PAIS,169,Polinèsia Francesa,Polinesia Francesa,French Polynesia
+31,NACIONALITAT_PAIS,170,Polònia,Polonia,Poland
+31,NACIONALITAT_PAIS,171,Portugal,Portugal,Portugal
+31,NACIONALITAT_PAIS,172,Puerto Rico,Puerto Rico,Puerto Rico
+31,NACIONALITAT_PAIS,173,Qatar,Qatar,Qatar
+31,NACIONALITAT_PAIS,174,Regne Unit,Reino Unido,United Kingdom
+31,NACIONALITAT_PAIS,175,República Centreafricana,República Centroafricana,Central African Republic
+31,NACIONALITAT_PAIS,176,República Democràtica del Congo,República Democrática del Congo,DR Congo
+31,NACIONALITAT_PAIS,177,República Dominicana,República Dominicana,Dominican Republic
+31,NACIONALITAT_PAIS,178,"Reunió, la",Reunión,Réunion
+31,NACIONALITAT_PAIS,179,Romania,Rumanía,Romania
+31,NACIONALITAT_PAIS,180,Ruanda,Ruanda,Rwanda
+31,NACIONALITAT_PAIS,181,Rússia,Rusia,Russia
+31,NACIONALITAT_PAIS,182,Sàhara Occidental,Sahara Occidental,Western Sahara
+31,NACIONALITAT_PAIS,183,"Saint Helena, Ascenció i Tristan da Cunha",Santa Helena,Saint Helena
+31,NACIONALITAT_PAIS,184,Saint Kitts i Nevis,San Cristóbal y Nieves,St Kitts and Nevis
+31,NACIONALITAT_PAIS,185,Saint Lucia,Santa Lucía,Saint Lucia
+31,NACIONALITAT_PAIS,186,Saint Vincent i les Grenadines,San Vicente y las Granadinas,St Vincent and Grenadines
+31,NACIONALITAT_PAIS,187,Saint-Barthélemy,San Bartolomé,Saint Barthélemy
+31,NACIONALITAT_PAIS,188,Saint-Martin,San Martín (parte francesa),Saint Martin
+31,NACIONALITAT_PAIS,189,Saint-Pierre-et-Miquelon,San Pedro y Miquelón,Saint Pierre and Miquelon
+31,NACIONALITAT_PAIS,190,Samoa,Samoa,Samoa
+31,NACIONALITAT_PAIS,191,Samoa Americana,Samoa Americana,American Samoa
+31,NACIONALITAT_PAIS,192,San Marino,San Marino,San Marino
+31,NACIONALITAT_PAIS,193,Santa Seu,Santa sede,Vatican City
+31,NACIONALITAT_PAIS,194,São Tomé i Príncipe,Santo tomé y Príncipe,São Tomé and Príncipe
+31,NACIONALITAT_PAIS,195,Senegal,Senegal,Senegal
+31,NACIONALITAT_PAIS,196,Sèrbia,Serbia,Serbia
+31,NACIONALITAT_PAIS,197,Seychelles,Seychelles,Seychelles
+31,NACIONALITAT_PAIS,198,Sierra Leone,Sierra leona,Sierra Leone
+31,NACIONALITAT_PAIS,199,Singapur,Singapur,Singapore
+31,NACIONALITAT_PAIS,200,Síria,Siria,Syria
+31,NACIONALITAT_PAIS,201,Somàlia,Somalia,Somalia
+31,NACIONALITAT_PAIS,202,Sri Lanka,Sri Lanka,Sri Lanka
+31,NACIONALITAT_PAIS,203,Sud-àfrica,Sudáfrica,South Africa
+31,NACIONALITAT_PAIS,204,"Sudan del Sud, el",Sudán del Sur,South Sudan
+31,NACIONALITAT_PAIS,205,"Sudan, el",Sudán,Sudan
+31,NACIONALITAT_PAIS,206,Suècia,Suecia,Sweden
+31,NACIONALITAT_PAIS,207,Suïssa,Suiza,Switzerland
+31,NACIONALITAT_PAIS,208,Surinam,Surinam,Suriname
+31,NACIONALITAT_PAIS,209,Svalbard i Jan Mayen,Svalbard y Jan Mayen,Svalbard and Jan Mayen
+31,NACIONALITAT_PAIS,210,Tadjikistan,Tayikistán,Tajikistan
+31,NACIONALITAT_PAIS,211,Tailàndia,Tailandia,Thailand
+31,NACIONALITAT_PAIS,212,"Taiwan,Xina",Taiwán,Taiwan
+31,NACIONALITAT_PAIS,213,Tanzània,Tanzania,Tanzania
+31,NACIONALITAT_PAIS,214,Timor-Leste,Timor Oriental,Timor-Leste
+31,NACIONALITAT_PAIS,215,Togo,Togo,Togo
+31,NACIONALITAT_PAIS,216,Tokelau,Tokelau,Tokelau
+31,NACIONALITAT_PAIS,217,Tonga,Tonga,Tonga
+31,NACIONALITAT_PAIS,218,Trinidad i Tobago,Trinidad y Tobago,Trinidad and Tobago
+31,NACIONALITAT_PAIS,219,Tunísia,Túnez,Tunisia
+31,NACIONALITAT_PAIS,220,Turkmenistan,Turkmenistán,Turkmenistan
+31,NACIONALITAT_PAIS,221,Turquia,Turquía,Turkey
+31,NACIONALITAT_PAIS,222,Tuvalu,Tuvalu,Tuvalu
+31,NACIONALITAT_PAIS,223,Txad,Chad,Chad
+31,NACIONALITAT_PAIS,224,Txèquia,República Checa,Czechia
+31,NACIONALITAT_PAIS,225,Ucraïna,Ucrania,Ukraine
+31,NACIONALITAT_PAIS,226,Uganda,Uganda,Uganda
+31,NACIONALITAT_PAIS,227,Uruguai,Uruguay,Uruguay
+31,NACIONALITAT_PAIS,228,Uzbekistan,Uzbekistán,Uzbekistan
+31,NACIONALITAT_PAIS,229,Vanuatu,Vanuatu,Vanuatu
+31,NACIONALITAT_PAIS,230,Veneçuela,Venezuela,Venezuela
+31,NACIONALITAT_PAIS,231,Vietnam,Vietnam,Vietnam
+31,NACIONALITAT_PAIS,232,Wallis i Futuna,Wallis y Fortuna,Wallis and Futuna
+31,NACIONALITAT_PAIS,233,Xile,Chile,Chile
+31,NACIONALITAT_PAIS,234,Xina,China,China
+31,NACIONALITAT_PAIS,235,Xipre,Chipre,Cyprus
+31,NACIONALITAT_PAIS,236,Zàmbia,Zambia,Zambia
+31,NACIONALITAT_PAIS,237,Zimbàbue,Zimbabwe,Zimbabwe
+31,NACIONALITAT_PAIS,999,No consta,No consta,Not available
+32,NACIONALITAT_CONTINENT,1,Àfrica,África,Africa
+32,NACIONALITAT_CONTINENT,2,Amèrica,América,Americas
+32,NACIONALITAT_CONTINENT,3,Àsia,Asia,Asia
+32,NACIONALITAT_CONTINENT,4,Europa,Europa,Europe
+32,NACIONALITAT_CONTINENT,5,Oceania,Oceania,Oceania
+32,NACIONALITAT_CONTINENT,999,No consta,No consta,Not available
+33,PAIS_MOV,1,Afganistan,Afganistán,Afghanistan
+33,PAIS_MOV,2,Aland,Islas Aland,Åland
+33,PAIS_MOV,3,Albània,Albania,Albania
+33,PAIS_MOV,4,Alemanya,Alemania,Germany
+33,PAIS_MOV,5,Algèria,Argelia,Algeria
+33,PAIS_MOV,6,Andorra,Andorra,Andorra
+33,PAIS_MOV,7,Angola,Angola,Angola
+33,PAIS_MOV,8,Anguilla,Anguilla,Anguilla
+33,PAIS_MOV,9,Antigua i Barbuda,Antigua y barbuda,Antigua and Barbuda
+33,PAIS_MOV,10,Aràbia Saudí,Arabia Saudí,Saudi Arabia
+33,PAIS_MOV,11,Argentina,Argentina,Argentina
+33,PAIS_MOV,12,Armènia,Armenia,Armenia
+33,PAIS_MOV,13,Aruba,Aruba,Aruba
+33,PAIS_MOV,14,Austràlia,Australia,Australia
+33,PAIS_MOV,15,Àustria,Austria,Austria
+33,PAIS_MOV,16,Azerbaidjan,Azerbaiyán,Azerbaijan
+33,PAIS_MOV,17,"Bahames, les",Bahamas,Bahamas
+33,PAIS_MOV,18,Bahrain,Bahréin,Bahrain
+33,PAIS_MOV,19,Bangladesh,Bangladesh,Bangladesh
+33,PAIS_MOV,20,Barbados,Barbados,Barbados
+33,PAIS_MOV,21,Belarús,Belarús,Belarus
+33,PAIS_MOV,22,Bèlgica,Bélgica,Belgium
+33,PAIS_MOV,23,Belize,Belice,Belize
+33,PAIS_MOV,24,Benín,Benin,Benin
+33,PAIS_MOV,25,Bermudes,Bermudas,Bermuda
+33,PAIS_MOV,26,Bhutan,Bhután,Bhutan
+33,PAIS_MOV,27,Bolívia,Bolivia,Bolivia
+33,PAIS_MOV,28,Bòsnia i Hercegovina,Bosnia y Herzegovina,Bosnia and Herzegovina
+33,PAIS_MOV,29,Botswana,Botswana,Botswana
+33,PAIS_MOV,30,Brasil,Brasil,Brazil
+33,PAIS_MOV,31,Brunei,Brunei,Brunei
+33,PAIS_MOV,32,Bulgària,Bulgaria,Bulgaria
+33,PAIS_MOV,33,Burkina Faso,Burkina Faso,Burkina Faso
+33,PAIS_MOV,34,Burundi,Burundi,Burundi
+33,PAIS_MOV,35,Cambodja,Camboya,Cambodia
+33,PAIS_MOV,36,Camerun,Camerún,Cameroon
+33,PAIS_MOV,37,Canadà,Canadá,Canada
+33,PAIS_MOV,38,Cap Verd,Cabo Verde,Cabo Verde
+33,PAIS_MOV,39,Colòmbia,Colombia,Colombia
+33,PAIS_MOV,40,"Comores, les",Comores,Comoros
+33,PAIS_MOV,41,Congo,Congo,Congo Republic
+33,PAIS_MOV,42,Corea del Nord,Corea del Norte,North Korea
+33,PAIS_MOV,43,Corea del Sud,Corea,South Korea
+33,PAIS_MOV,44,Costa d'Ivori,Costa de marfil,Ivory Coast
+33,PAIS_MOV,45,Costa Rica,Costa rica,Costa Rica
+33,PAIS_MOV,46,Croàcia,Croacia,Croatia
+33,PAIS_MOV,47,Cuba,Cuba,Cuba
+33,PAIS_MOV,48,Dinamarca,Dinamarca,Denmark
+33,PAIS_MOV,49,Djibouti,Djibouti,Djibouti
+33,PAIS_MOV,50,Dominica,Dominica,Dominica
+33,PAIS_MOV,51,Egipte,Egipto,Egypt
+33,PAIS_MOV,52,El Salvador,El Salvador,El Salvador
+33,PAIS_MOV,53,"Emirats Àrabs Units, els",Emiratos Árabes Unidos,United Arab Emirates
+33,PAIS_MOV,54,Equador,Ecuador,Ecuador
+33,PAIS_MOV,55,Eritrea,Eritrea,Eritrea
+33,PAIS_MOV,56,Eslovàquia,República Eslovaca,Slovakia
+33,PAIS_MOV,57,Eslovènia,Eslovenia,Slovenia
+33,PAIS_MOV,58,Espanya,España,Spain
+33,PAIS_MOV,59,"Estats Units, els","Estados Unidos, Los",United States
+33,PAIS_MOV,60,Estònia,Estonia,Estonia
+33,PAIS_MOV,61,Eswatini,Swazilandia,Eswatini
+33,PAIS_MOV,62,Etiòpia,Etiopía,Ethiopia
+33,PAIS_MOV,63,Fèroe,Islas Feroe,Faroe Islands
+33,PAIS_MOV,64,Fiji,Fiji,Fiji
+33,PAIS_MOV,65,Filipines,Filipinas,Philippines
+33,PAIS_MOV,66,Finlàndia,Finlandia,Finland
+33,PAIS_MOV,67,França,Francia,France
+33,PAIS_MOV,68,Gabon,Gabón,Gabon
+33,PAIS_MOV,69,Gàmbia,Gambia,Gambia
+33,PAIS_MOV,70,Geòrgia,Georgia,Georgia
+33,PAIS_MOV,71,Ghana,Ghana,Ghana
+33,PAIS_MOV,72,Gibraltar,Gibraltar,Gibraltar
+33,PAIS_MOV,73,Grècia,Grecia,Greece
+33,PAIS_MOV,74,Grenada,Granada,Grenada
+33,PAIS_MOV,75,Groenlàndia,Groenlandia,Greenland
+33,PAIS_MOV,76,Guadalupe,Guadalupe,Guadeloupe
+33,PAIS_MOV,77,Guaiana Francesa,Guayana Francesa,French Guiana
+33,PAIS_MOV,78,Guam,Guam,Guam
+33,PAIS_MOV,79,Guatemala,Guatemala,Guatemala
+33,PAIS_MOV,80,Guernsey,Guernsey,Guernsey
+33,PAIS_MOV,81,Guinea,Guinea,Guinea
+33,PAIS_MOV,82,Guinea Equatorial,Guinea Ecuatorial,Equatorial Guinea
+33,PAIS_MOV,83,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau
+33,PAIS_MOV,84,Guyana,Guyana,Guyana
+33,PAIS_MOV,85,Haití,Haití,Haiti
+33,PAIS_MOV,86,Hondures,Honduras,Honduras
+33,PAIS_MOV,87,"Hong Kong, Xina",Hong Kong,Hong Kong
+33,PAIS_MOV,88,Hongria,Hungría,Hungary
+33,PAIS_MOV,89,"Iemen, el",Yemen,Yemen
+33,PAIS_MOV,90,Illa de Man,Isla de Man,Isle of Man
+33,PAIS_MOV,91,Illa Norfolk,Isla Norfolk,Norfolk Island
+33,PAIS_MOV,92,Illes Caiman,Islas Caimán,Cayman Islands
+33,PAIS_MOV,93,Illes Cook,Islas Cook,Cook Islands
+33,PAIS_MOV,94,Illes Falkland (Malvines),Islas Malvinas,Falkland Islands
+33,PAIS_MOV,95,Illes Marianes del Nord,Islas Marianas del Norte,Northern Mariana Islands
+33,PAIS_MOV,96,Illes Marshall,Islas Marshall,Marshall Islands
+33,PAIS_MOV,97,Illes Salomó,Islas Salomón,Solomon Islands
+33,PAIS_MOV,98,Illes Turks i Caicos,Islas Turcas y Caicos,Turks and Caicos Islands
+33,PAIS_MOV,99,Illes Verges Britàniques,Islas Vírgenes Británicas,British Virgin Islands
+33,PAIS_MOV,100,Illes Verges dels Estats Units,Islas Vírgenes de los Estados Unidos,U.S. Virgin Islands
+33,PAIS_MOV,101,Índia,India,India
+33,PAIS_MOV,102,Indonèsia,Indonesia,Indonesia
+33,PAIS_MOV,103,Iran,Irán,Iran
+33,PAIS_MOV,104,"Iraq, l'",Iraq,Iraq
+33,PAIS_MOV,105,Irlanda,Irlanda,Ireland
+33,PAIS_MOV,106,Islàndia,Islandia,Iceland
+33,PAIS_MOV,107,Israel,Israel,Israel
+33,PAIS_MOV,108,Itàlia,Italia,Italy
+33,PAIS_MOV,109,Jamaica,Jamaica,Jamaica
+33,PAIS_MOV,110,Japó,Japón,Japan
+33,PAIS_MOV,111,Jersey,Jersey,Jersey
+33,PAIS_MOV,112,Jordània,Jordania,Jordan
+33,PAIS_MOV,113,Kazakhstan,Kazajstán,Kazakhstan
+33,PAIS_MOV,114,Kenya,Kenia,Kenya
+33,PAIS_MOV,115,Kirguizstan,Kirguistán,Kyrgyzstan
+33,PAIS_MOV,116,Kiribati,Kiribati,Kiribati
+33,PAIS_MOV,117,Kuwait,Kuwait,Kuwait
+33,PAIS_MOV,118,Lao,Laos,Laos
+33,PAIS_MOV,119,Lesotho,Lesotho,Lesotho
+33,PAIS_MOV,120,Letònia,Letonia,Latvia
+33,PAIS_MOV,121,Líban,Líbano,Lebanon
+33,PAIS_MOV,122,Libèria,Liberia,Liberia
+33,PAIS_MOV,123,Líbia,Libia,Libya
+33,PAIS_MOV,124,Liechtenstein,Liechtenstein,Liechtenstein
+33,PAIS_MOV,125,Lituània,Lituania,Lithuania
+33,PAIS_MOV,126,Luxemburg,Luxemburgo,Luxembourg
+33,PAIS_MOV,127,"Macao, Xina",Macao,Macao
+33,PAIS_MOV,128,Macedònia,Macedonia,North Macedonia
+33,PAIS_MOV,129,Madagascar,Madagascar,Madagascar
+33,PAIS_MOV,130,Malàisia,Malasia,Malaysia
+33,PAIS_MOV,131,Malawi,Malawi,Malawi
+33,PAIS_MOV,132,Maldives,Maldivas,Maldives
+33,PAIS_MOV,133,Mali,Mali,Mali
+33,PAIS_MOV,134,Malta,Malta,Malta
+33,PAIS_MOV,135,"Marroc, el",Marruecos,Morocco
+33,PAIS_MOV,136,Martinica,Martinica,Martinique
+33,PAIS_MOV,137,Maurici,Mauricio,Mauritius
+33,PAIS_MOV,138,Mauritània,Mauritania,Mauritania
+33,PAIS_MOV,139,Mayotte,Mayotte,Mayotte
+33,PAIS_MOV,140,Mèxic,México,Mexico
+33,PAIS_MOV,141,Micronèsia,Micronesia,Micronesia
+33,PAIS_MOV,142,Moçambic,Mozambique,Mozambique
+33,PAIS_MOV,143,Moldàvia,Moldavia,Moldova
+33,PAIS_MOV,144,Mònaco,Mónaco,Monaco
+33,PAIS_MOV,145,Mongòlia,Mongolia,Mongolia
+33,PAIS_MOV,146,Montenegro,Montenegro,Montenegro
+33,PAIS_MOV,147,Montserrat,Montserrat,Montserrat
+33,PAIS_MOV,148,Myanmar,Myanmar,Myanmar
+33,PAIS_MOV,149,Namíbia,Namibia,Namibia
+33,PAIS_MOV,150,Nauru,Nauru,Nauru
+33,PAIS_MOV,151,Nepal,Nepal,Nepal
+33,PAIS_MOV,152,Nicaragua,Nicaragua,Nicaragua
+33,PAIS_MOV,153,Níger,Níger,Niger
+33,PAIS_MOV,154,Nigèria,Nigeria,Nigeria
+33,PAIS_MOV,155,Niue,Niue,Niue
+33,PAIS_MOV,156,Noruega,Noruega,Norway
+33,PAIS_MOV,157,Nova Caledònia,Nueva Caledonia,New Caledonia
+33,PAIS_MOV,158,Nova Zelanda,Nueva Zelanda,New Zealand
+33,PAIS_MOV,159,Oman,Omán,Oman
+33,PAIS_MOV,160,Països Baixos,Países Bajos,Netherlands
+33,PAIS_MOV,161,Pakistan,Pakistán,Pakistan
+33,PAIS_MOV,162,Palau,Palaos,Palau
+33,PAIS_MOV,163,Palestina,"Palestina. Estado Observador, no miembro de Naciones Unidas",Palestine
+33,PAIS_MOV,164,Panamà,Panamá,Panama
+33,PAIS_MOV,165,Papua Nova Guinea,Papúa Nueva Guinea,Papua New Guinea
+33,PAIS_MOV,166,Paraguai,Paraguay,Paraguay
+33,PAIS_MOV,167,Perú,Perú,Peru
+33,PAIS_MOV,168,Pitcairn,Islas Pitcairn,Pitcairn Islands
+33,PAIS_MOV,169,Polinèsia Francesa,Polinesia Francesa,French Polynesia
+33,PAIS_MOV,170,Polònia,Polonia,Poland
+33,PAIS_MOV,171,Portugal,Portugal,Portugal
+33,PAIS_MOV,172,Puerto Rico,Puerto Rico,Puerto Rico
+33,PAIS_MOV,173,Qatar,Qatar,Qatar
+33,PAIS_MOV,174,Regne Unit,Reino Unido,United Kingdom
+33,PAIS_MOV,175,República Centreafricana,República Centroafricana,Central African Republic
+33,PAIS_MOV,176,República Democràtica del Congo,República Democrática del Congo,DR Congo
+33,PAIS_MOV,177,República Dominicana,República Dominicana,Dominican Republic
+33,PAIS_MOV,178,"Reunió, la",Reunión,Réunion
+33,PAIS_MOV,179,Romania,Rumanía,Romania
+33,PAIS_MOV,180,Ruanda,Ruanda,Rwanda
+33,PAIS_MOV,181,Rússia,Rusia,Russia
+33,PAIS_MOV,182,Sàhara Occidental,Sahara Occidental,Western Sahara
+33,PAIS_MOV,183,"Saint Helena, Ascenció i Tristan da Cunha",Santa Helena,Saint Helena
+33,PAIS_MOV,184,Saint Kitts i Nevis,San Cristóbal y Nieves,St Kitts and Nevis
+33,PAIS_MOV,185,Saint Lucia,Santa Lucía,Saint Lucia
+33,PAIS_MOV,186,Saint Vincent i les Grenadines,San Vicente y las Granadinas,St Vincent and Grenadines
+33,PAIS_MOV,187,Saint-Barthélemy,San Bartolomé,Saint Barthélemy
+33,PAIS_MOV,188,Saint-Martin,San Martín (parte francesa),Saint Martin
+33,PAIS_MOV,189,Saint-Pierre-et-Miquelon,San Pedro y Miquelón,Saint Pierre and Miquelon
+33,PAIS_MOV,190,Samoa,Samoa,Samoa
+33,PAIS_MOV,191,Samoa Americana,Samoa Americana,American Samoa
+33,PAIS_MOV,192,San Marino,San Marino,San Marino
+33,PAIS_MOV,193,Santa Seu,Santa sede,Vatican City
+33,PAIS_MOV,194,São Tomé i Príncipe,Santo tomé y Príncipe,São Tomé and Príncipe
+33,PAIS_MOV,195,Senegal,Senegal,Senegal
+33,PAIS_MOV,196,Sèrbia,Serbia,Serbia
+33,PAIS_MOV,197,Seychelles,Seychelles,Seychelles
+33,PAIS_MOV,198,Sierra Leone,Sierra leona,Sierra Leone
+33,PAIS_MOV,199,Singapur,Singapur,Singapore
+33,PAIS_MOV,200,Síria,Siria,Syria
+33,PAIS_MOV,201,Somàlia,Somalia,Somalia
+33,PAIS_MOV,202,Sri Lanka,Sri Lanka,Sri Lanka
+33,PAIS_MOV,203,Sud-àfrica,Sudáfrica,South Africa
+33,PAIS_MOV,204,"Sudan del Sud, el",Sudán del Sur,South Sudan
+33,PAIS_MOV,205,"Sudan, el",Sudán,Sudan
+33,PAIS_MOV,206,Suècia,Suecia,Sweden
+33,PAIS_MOV,207,Suïssa,Suiza,Switzerland
+33,PAIS_MOV,208,Surinam,Surinam,Suriname
+33,PAIS_MOV,209,Svalbard i Jan Mayen,Svalbard y Jan Mayen,Svalbard and Jan Mayen
+33,PAIS_MOV,210,Tadjikistan,Tayikistán,Tajikistan
+33,PAIS_MOV,211,Tailàndia,Tailandia,Thailand
+33,PAIS_MOV,212,"Taiwan,Xina",Taiwán,Taiwan
+33,PAIS_MOV,213,Tanzània,Tanzania,Tanzania
+33,PAIS_MOV,214,Timor-Leste,Timor Oriental,Timor-Leste
+33,PAIS_MOV,215,Togo,Togo,Togo
+33,PAIS_MOV,216,Tokelau,Tokelau,Tokelau
+33,PAIS_MOV,217,Tonga,Tonga,Tonga
+33,PAIS_MOV,218,Trinidad i Tobago,Trinidad y Tobago,Trinidad and Tobago
+33,PAIS_MOV,219,Tunísia,Túnez,Tunisia
+33,PAIS_MOV,220,Turkmenistan,Turkmenistán,Turkmenistan
+33,PAIS_MOV,221,Turquia,Turquía,Turkey
+33,PAIS_MOV,222,Tuvalu,Tuvalu,Tuvalu
+33,PAIS_MOV,223,Txad,Chad,Chad
+33,PAIS_MOV,224,Txèquia,República Checa,Czechia
+33,PAIS_MOV,225,Ucraïna,Ucrania,Ukraine
+33,PAIS_MOV,226,Uganda,Uganda,Uganda
+33,PAIS_MOV,227,Uruguai,Uruguay,Uruguay
+33,PAIS_MOV,228,Uzbekistan,Uzbekistán,Uzbekistan
+33,PAIS_MOV,229,Vanuatu,Vanuatu,Vanuatu
+33,PAIS_MOV,230,Veneçuela,Venezuela,Venezuela
+33,PAIS_MOV,231,Vietnam,Vietnam,Vietnam
+33,PAIS_MOV,232,Wallis i Futuna,Wallis y Fortuna,Wallis and Futuna
+33,PAIS_MOV,233,Xile,Chile,Chile
+33,PAIS_MOV,234,Xina,China,China
+33,PAIS_MOV,235,Xipre,Chipre,Cyprus
+33,PAIS_MOV,236,Zàmbia,Zambia,Zambia
+33,PAIS_MOV,237,Zimbàbue,Zimbabwe,Zimbabwe
+33,PAIS_MOV,999,No consta,No consta,Not available
+34,CONTINENT_MOV,1,Àfrica,África,Africa
+34,CONTINENT_MOV,2,Amèrica,América,Americas
+34,CONTINENT_MOV,3,Àsia,Asia,Asia
+34,CONTINENT_MOV,4,Europa,Europa,Europe
+34,CONTINENT_MOV,5,Oceania,Oceania,Oceania
+34,CONTINENT_MOV,999,No consta,No consta,Not available
+35,CODI_DISTRICTE_DEST,3,Sants-Montjuïc,Sants-Montjuïc,Sants-Montjuïc
+35,CODI_DISTRICTE_DEST,5,Sarrià-Sant Gervasi,Sarrià-Sant Gervasi,Sarrià-Sant Gervasi
+35,CODI_DISTRICTE_DEST,1,Ciutat Vella,Ciutat Vella,Ciutat Vella
+35,CODI_DISTRICTE_DEST,2,Eixample,Eixample,Eixample
+35,CODI_DISTRICTE_DEST,4,Les Corts,Les Corts,Les Corts
+35,CODI_DISTRICTE_DEST,6,Gràcia,Gràcia,Gràcia
+35,CODI_DISTRICTE_DEST,7,Horta-Guinardó,Horta-Guinardó,Horta-Guinardó
+35,CODI_DISTRICTE_DEST,8,Nou Barris,Nou Barris,Nou Barris
+35,CODI_DISTRICTE_DEST,9,Sant Andreu,Sant Andreu,Sant Andreu
+35,CODI_DISTRICTE_DEST,10,Sant Martí,Sant Martí,Sant Martí
+36,CODI_BARRI_DEST,4,"Sant Pere, Santa Caterina i la Ribera","Sant Pere, Santa Caterina i la Ribera","Sant Pere, Santa Caterina i la Ribera"
+36,CODI_BARRI_DEST,5,el Fort Pienc,el Fort Pienc,el Fort Pienc
+36,CODI_BARRI_DEST,6,la Sagrada Família,la Sagrada Família,la Sagrada Família
+36,CODI_BARRI_DEST,7,la Dreta de l'Eixample,la Dreta de l'Eixample,la Dreta de l'Eixample
+36,CODI_BARRI_DEST,27,el Putxet i el Farró,el Putxet i el Farró,el Putxet i el Farró
+36,CODI_BARRI_DEST,8,l'Antiga Esquerra de l'Eixample,l'Antiga Esquerra de l'Eixample,l'Antiga Esquerra de l'Eixample
+36,CODI_BARRI_DEST,9,la Nova Esquerra de l'Eixample,la Nova Esquerra de l'Eixample,la Nova Esquerra de l'Eixample
+36,CODI_BARRI_DEST,10,Sant Antoni,Sant Antoni,Sant Antoni
+36,CODI_BARRI_DEST,11,el Poble-sec,el Poble-sec,el Poble-sec
+36,CODI_BARRI_DEST,13,la Marina de Port,la Marina de Port,la Marina de Port
+36,CODI_BARRI_DEST,31,la Vila de Gràcia,la Vila de Gràcia,la Vila de Gràcia
+36,CODI_BARRI_DEST,32,el Camp d'en Grassot i Gràcia Nova,el Camp d'en Grassot i Gràcia Nova,el Camp d'en Grassot i Gràcia Nova
+36,CODI_BARRI_DEST,33,el Baix Guinardó,el Baix Guinardó,el Baix Guinardó
+36,CODI_BARRI_DEST,35,el Guinardó,el Guinardó,el Guinardó
+36,CODI_BARRI_DEST,34,Can Baró,Can Baró,Can Baró
+36,CODI_BARRI_DEST,37,el Carmel,el Carmel,el Carmel
+36,CODI_BARRI_DEST,41,la Vall d'Hebron,la Vall d'Hebron,la Vall d'Hebron
+36,CODI_BARRI_DEST,14,la Font de la Guatlla,la Font de la Guatlla,la Font de la Guatlla
+36,CODI_BARRI_DEST,29,el Coll,el Coll,el Coll
+36,CODI_BARRI_DEST,30,la Salut,la Salut,la Salut
+36,CODI_BARRI_DEST,1,el Raval,el Raval,el Raval
+36,CODI_BARRI_DEST,2,el Barri Gòtic,el Barri Gòtic,el Barri Gòtic
+36,CODI_BARRI_DEST,3,la Barceloneta,la Barceloneta,la Barceloneta
+36,CODI_BARRI_DEST,36,la Font d'en Fargues,la Font d'en Fargues,la Font d'en Fargues
+36,CODI_BARRI_DEST,24,les Tres Torres,les Tres Torres,les Tres Torres
+36,CODI_BARRI_DEST,25,Sant Gervasi - la Bonanova,Sant Gervasi - la Bonanova,Sant Gervasi - la Bonanova
+36,CODI_BARRI_DEST,26,Sant Gervasi - Galvany,Sant Gervasi - Galvany,Sant Gervasi - Galvany
+36,CODI_BARRI_DEST,28,Vallcarca i els Penitents,Vallcarca i els Penitents,Vallcarca i els Penitents
+36,CODI_BARRI_DEST,60,Sant Andreu,Sant Andreu,Sant Andreu
+36,CODI_BARRI_DEST,61,la Sagrera,la Sagrera,la Sagrera
+36,CODI_BARRI_DEST,62,el Congrés i els Indians,el Congrés i els Indians,el Congrés i els Indians
+36,CODI_BARRI_DEST,63,Navas,Navas,Navas
+36,CODI_BARRI_DEST,64,el Camp de l'Arpa del Clot,el Camp de l'Arpa del Clot,el Camp de l'Arpa del Clot
+36,CODI_BARRI_DEST,65,el Clot,el Clot,el Clot
+36,CODI_BARRI_DEST,66,el Parc i la Llacuna del Poblenou,el Parc i la Llacuna del Poblenou,el Parc i la Llacuna del Poblenou
+36,CODI_BARRI_DEST,67,la Vila Olímpica del Poblenou,la Vila Olímpica del Poblenou,la Vila Olímpica del Poblenou
+36,CODI_BARRI_DEST,68,el Poblenou,el Poblenou,el Poblenou
+36,CODI_BARRI_DEST,69,Diagonal Mar i el Front Marítim del Poblenou,Diagonal Mar i el Front Marítim del Poblenou,Diagonal Mar i el Front Marítim del Poblenou
+36,CODI_BARRI_DEST,70,el Besòs i el Maresme,el Besòs i el Maresme,el Besòs i el Maresme
+36,CODI_BARRI_DEST,71,Provençals del Poblenou,Provençals del Poblenou,Provençals del Poblenou
+36,CODI_BARRI_DEST,72,Sant Martí de Provençals,Sant Martí de Provençals,Sant Martí de Provençals
+36,CODI_BARRI_DEST,38,la Teixonera,la Teixonera,la Teixonera
+36,CODI_BARRI_DEST,39,Sant Genís dels Agudells,Sant Genís dels Agudells,Sant Genís dels Agudells
+36,CODI_BARRI_DEST,40,Montbau,Montbau,Montbau
+36,CODI_BARRI_DEST,42,la Clota,la Clota,la Clota
+36,CODI_BARRI_DEST,43,Horta,Horta,Horta
+36,CODI_BARRI_DEST,44,Vilapicina i la Torre Llobeta,Vilapicina i la Torre Llobeta,Vilapicina i la Torre Llobeta
+36,CODI_BARRI_DEST,45,Porta,Porta,Porta
+36,CODI_BARRI_DEST,46,el Turó de la Peira,el Turó de la Peira,el Turó de la Peira
+36,CODI_BARRI_DEST,15,Hostafrancs,Hostafrancs,Hostafrancs
+36,CODI_BARRI_DEST,16,la Bordeta,la Bordeta,la Bordeta
+36,CODI_BARRI_DEST,17,Sants - Badal,Sants - Badal,Sants - Badal
+36,CODI_BARRI_DEST,18,Sants,Sants,Sants
+36,CODI_BARRI_DEST,19,les Corts,les Corts,les Corts
+36,CODI_BARRI_DEST,20,la Maternitat i Sant Ramon,la Maternitat i Sant Ramon,la Maternitat i Sant Ramon
+36,CODI_BARRI_DEST,21,Pedralbes,Pedralbes,Pedralbes
+36,CODI_BARRI_DEST,23,Sarrià,Sarrià,Sarrià
+36,CODI_BARRI_DEST,56,Vallbona,Vallbona,Vallbona
+36,CODI_BARRI_DEST,57,la Trinitat Vella,la Trinitat Vella,la Trinitat Vella
+36,CODI_BARRI_DEST,58,Baró de Viver,Baró de Viver,Baró de Viver
+36,CODI_BARRI_DEST,59,el Bon Pastor,el Bon Pastor,el Bon Pastor
+36,CODI_BARRI_DEST,22,"Vallvidrera, el Tibidabo i les Planes","Vallvidrera, el Tibidabo i les Planes","Vallvidrera, el Tibidabo i les Planes"
+36,CODI_BARRI_DEST,12,la Marina del Prat Vermell,la Marina del Prat Vermell,la Marina del Prat Vermell
+36,CODI_BARRI_DEST,49,Canyelles,Canyelles,Canyelles
+36,CODI_BARRI_DEST,73,la Verneda i la Pau,la Verneda i la Pau,la Verneda i la Pau
+36,CODI_BARRI_DEST,47,Can Peguera,Can Peguera,Can Peguera
+36,CODI_BARRI_DEST,48,la Guineueta,la Guineueta,la Guineueta
+36,CODI_BARRI_DEST,51,Verdun,Verdun,Verdun
+36,CODI_BARRI_DEST,52,la Prosperitat,la Prosperitat,la Prosperitat
+36,CODI_BARRI_DEST,50,les Roquetes,les Roquetes,les Roquetes
+36,CODI_BARRI_DEST,53,la Trinitat Nova,la Trinitat Nova,la Trinitat Nova
+36,CODI_BARRI_DEST,54,Torre Baró,Torre Baró,Torre Baró
+36,CODI_BARRI_DEST,55,Ciutat Meridiana,Ciutat Meridiana,Ciutat Meridiana
+37,NACIONALITAT_INI,1,Equador,Ecuador,Ecuador
+37,NACIONALITAT_INI,2,Perú,Perú,Peru
+37,NACIONALITAT_INI,3,Colòmbia,Colombia,Colombia
+37,NACIONALITAT_INI,4,República Dominicana,República Dominicana,Dominican Republic
+37,NACIONALITAT_INI,5,Bolívia,Bolivia,Bolivia
+37,NACIONALITAT_INI,6,Argentina,Argentina,Argentina
+37,NACIONALITAT_INI,7,Pakistan,Pakistán,Pakistan
+37,NACIONALITAT_INI,8,"Marroc, el",Marruecos,Morocco
+37,NACIONALITAT_INI,9,Filipines,Filipinas,Philippines
+37,NACIONALITAT_INI,10,Veneçuela,Venezuela,Venezuela
+37,NACIONALITAT_INI,11,Brasil,Brasil,Brazil
+37,NACIONALITAT_INI,12,Hondures,Honduras,Honduras
+37,NACIONALITAT_INI,13,Cuba,Cuba,Cuba
+37,NACIONALITAT_INI,14,Espanya,España,Spain
+37,NACIONALITAT_INI,15,Xile,Chile,Chile
+37,NACIONALITAT_INI,16,Mèxic,México,Mexico
+37,NACIONALITAT_INI,17,Paraguai,Paraguay,Paraguay
+37,NACIONALITAT_INI,18,Uruguai,Uruguay,Uruguay
+37,NACIONALITAT_INI,19,Bangladesh,Bangladesh,Bangladesh
+37,NACIONALITAT_INI,20,Índia,India,India
+37,NACIONALITAT_INI,21,Itàlia,Italia,Italy
+37,NACIONALITAT_INI,22,Rússia,Rusia,Russia
+37,NACIONALITAT_INI,23,Xina,China,China
+37,NACIONALITAT_INI,24,"Estats Units, els","Estados Unidos, Los",United States
+37,NACIONALITAT_INI,25,El Salvador,El Salvador,El Salvador
+37,NACIONALITAT_INI,27,Ucraïna,Ucrania,Ukraine
+37,NACIONALITAT_INI,28,França,Francia,France
+37,NACIONALITAT_INI,29,Algèria,Argelia,Algeria
+37,NACIONALITAT_INI,30,Regne Unit,Reino Unido,United Kingdom
+37,NACIONALITAT_INI,31,Armènia,Armenia,Armenia
+37,NACIONALITAT_INI,32,Guinea,Guinea,Guinea
+37,NACIONALITAT_INI,33,Romania,Rumanía,Romania
+37,NACIONALITAT_INI,34,Nicaragua,Nicaragua,Nicaragua
+37,NACIONALITAT_INI,35,Guatemala,Guatemala,Guatemala
+37,NACIONALITAT_INI,36,Portugal,Portugal,Portugal
+37,NACIONALITAT_INI,37,Nigèria,Nigeria,Nigeria
+37,NACIONALITAT_INI,38,Senegal,Senegal,Senegal
+37,NACIONALITAT_INI,39,Israel,Israel,Israel
+37,NACIONALITAT_INI,40,Síria,Siria,Syria
+37,NACIONALITAT_INI,41,Alemanya,Alemania,Germany
+37,NACIONALITAT_INI,42,Geòrgia,Georgia,Georgia
+37,NACIONALITAT_INI,44,Nepal,Nepal,Nepal
+37,NACIONALITAT_INI,45,Andorra,Andorra,Andorra
+37,NACIONALITAT_INI,46,Líban,Líbano,Lebanon
+37,NACIONALITAT_INI,47,Moldàvia,Moldavia,Moldova
+37,NACIONALITAT_INI,48,Turquia,Turquía,Turkey
+37,NACIONALITAT_INI,49,Iran,Irán,Iran
+37,NACIONALITAT_INI,50,Costa Rica,Costa rica,Costa Rica
+37,NACIONALITAT_INI,51,Suïssa,Suiza,Switzerland
+37,NACIONALITAT_INI,52,Polònia,Polonia,Poland
+37,NACIONALITAT_INI,53,Canadà,Canadá,Canada
+37,NACIONALITAT_INI,54,Egipte,Egipto,Egypt
+37,NACIONALITAT_INI,55,Panamà,Panamá,Panama
+37,NACIONALITAT_INI,56,Ghana,Ghana,Ghana
+37,NACIONALITAT_INI,57,Sèrbia,Serbia,Serbia
+37,NACIONALITAT_INI,58,Bulgària,Bulgaria,Bulgaria
+37,NACIONALITAT_INI,59,Guinea Equatorial,Guinea Ecuatorial,Equatorial Guinea
+37,NACIONALITAT_INI,60,Països Baixos,Países Bajos,Netherlands
+37,NACIONALITAT_INI,61,Belarús,Belarús,Belarus
+37,NACIONALITAT_INI,62,Jordània,Jordania,Jordan
+37,NACIONALITAT_INI,63,Camerun,Camerún,Cameroon
+37,NACIONALITAT_INI,64,Tunísia,Túnez,Tunisia
+37,NACIONALITAT_INI,65,Albània,Albania,Albania
+37,NACIONALITAT_INI,66,Gàmbia,Gambia,Gambia
+37,NACIONALITAT_INI,67,Bèlgica,Bélgica,Belgium
+37,NACIONALITAT_INI,68,Irlanda,Irlanda,Ireland
+37,NACIONALITAT_INI,69,Etiòpia,Etiopía,Ethiopia
+37,NACIONALITAT_INI,70,Austràlia,Australia,Australia
+37,NACIONALITAT_INI,72,Corea del Sud,Corea,South Korea
+37,NACIONALITAT_INI,73,Mali,Mali,Mali
+37,NACIONALITAT_INI,74,Grècia,Grecia,Greece
+37,NACIONALITAT_INI,75,Dominica,Dominica,Dominica
+37,NACIONALITAT_INI,76,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau
+37,NACIONALITAT_INI,78,"Iraq, l'",Iraq,Iraq
+37,NACIONALITAT_INI,79,Hongria,Hungría,Hungary
+37,NACIONALITAT_INI,80,Suècia,Suecia,Sweden
+37,NACIONALITAT_INI,81,Croàcia,Croacia,Croatia
+37,NACIONALITAT_INI,82,Japó,Japón,Japan
+37,NACIONALITAT_INI,83,Kazakhstan,Kazajstán,Kazakhstan
+37,NACIONALITAT_INI,84,Sierra Leone,Sierra leona,Sierra Leone
+37,NACIONALITAT_INI,85,Bòsnia i Hercegovina,Bosnia y Herzegovina,Bosnia and Herzegovina
+37,NACIONALITAT_INI,86,Àustria,Austria,Austria
+37,NACIONALITAT_INI,87,Corea del Nord,Corea del Norte,North Korea
+37,NACIONALITAT_INI,88,Haití,Haití,Haiti
+37,NACIONALITAT_INI,89,Azerbaidjan,Azerbaiyán,Azerbaijan
+37,NACIONALITAT_INI,90,Sud-àfrica,Sudáfrica,South Africa
+37,NACIONALITAT_INI,91,Montenegro,Montenegro,Montenegro
+37,NACIONALITAT_INI,92,Vietnam,Vietnam,Vietnam
+37,NACIONALITAT_INI,93,Txèquia,República Checa,Czechia
+37,NACIONALITAT_INI,94,Macedònia,Macedonia,North Macedonia
+37,NACIONALITAT_INI,95,Mauritània,Mauritania,Mauritania
+37,NACIONALITAT_INI,96,Líbia,Libia,Libya
+37,NACIONALITAT_INI,97,Lituània,Lituania,Lithuania
+37,NACIONALITAT_INI,98,Eslovàquia,República Eslovaca,Slovakia
+37,NACIONALITAT_INI,99,Costa d'Ivori,Costa de marfil,Ivory Coast
+37,NACIONALITAT_INI,100,"Sudan, el",Sudán,Sudan
+37,NACIONALITAT_INI,101,Dinamarca,Dinamarca,Denmark
+37,NACIONALITAT_INI,102,Tailàndia,Tailandia,Thailand
+37,NACIONALITAT_INI,103,Letònia,Letonia,Latvia
+37,NACIONALITAT_INI,104,Aràbia Saudí,Arabia Saudí,Saudi Arabia
+37,NACIONALITAT_INI,105,Afganistan,Afganistán,Afghanistan
+37,NACIONALITAT_INI,106,Uzbekistan,Uzbekistán,Uzbekistan
+37,NACIONALITAT_INI,107,Congo,Congo,Congo Republic
+37,NACIONALITAT_INI,108,Palestina,"Palestina. Estado Observador, no miembro de Naciones Unidas",Palestine
+37,NACIONALITAT_INI,109,Nova Zelanda,Nueva Zelanda,New Zealand
+37,NACIONALITAT_INI,110,Kenya,Kenia,Kenya
+37,NACIONALITAT_INI,111,Eslovènia,Eslovenia,Slovenia
+37,NACIONALITAT_INI,112,Angola,Angola,Angola
+37,NACIONALITAT_INI,113,Finlàndia,Finlandia,Finland
+37,NACIONALITAT_INI,114,Moçambic,Mozambique,Mozambique
+37,NACIONALITAT_INI,115,Cap Verd,Cabo Verde,Cabo Verde
+37,NACIONALITAT_INI,116,Burkina Faso,Burkina Faso,Burkina Faso
+37,NACIONALITAT_INI,117,Noruega,Noruega,Norway
+37,NACIONALITAT_INI,118,Togo,Togo,Togo
+37,NACIONALITAT_INI,119,Benín,Benin,Benin
+37,NACIONALITAT_INI,120,Níger,Níger,Niger
+37,NACIONALITAT_INI,121,Somàlia,Somalia,Somalia
+37,NACIONALITAT_INI,122,República Democràtica del Congo,República Democrática del Congo,DR Congo
+37,NACIONALITAT_INI,123,Libèria,Liberia,Liberia
+37,NACIONALITAT_INI,124,Kirguizstan,Kirguistán,Kyrgyzstan
+37,NACIONALITAT_INI,125,Xipre,Chipre,Cyprus
+37,NACIONALITAT_INI,126,Estònia,Estonia,Estonia
+37,NACIONALITAT_INI,129,Malàisia,Malasia,Malaysia
+37,NACIONALITAT_INI,131,Sri Lanka,Sri Lanka,Sri Lanka
+37,NACIONALITAT_INI,132,Indonèsia,Indonesia,Indonesia
+37,NACIONALITAT_INI,133,"Emirats Àrabs Units, els",Emiratos Árabes Unidos,United Arab Emirates
+37,NACIONALITAT_INI,134,Zimbàbue,Zimbabwe,Zimbabwe
+37,NACIONALITAT_INI,135,Maurici,Mauricio,Mauritius
+37,NACIONALITAT_INI,136,Cambodja,Camboya,Cambodia
+37,NACIONALITAT_INI,137,Mongòlia,Mongolia,Mongolia
+37,NACIONALITAT_INI,138,Tanzània,Tanzania,Tanzania
+37,NACIONALITAT_INI,139,Gabon,Gabón,Gabon
+37,NACIONALITAT_INI,141,Madagascar,Madagascar,Madagascar
+37,NACIONALITAT_INI,142,Ruanda,Ruanda,Rwanda
+37,NACIONALITAT_INI,143,Luxemburg,Luxemburgo,Luxembourg
+37,NACIONALITAT_INI,144,Uganda,Uganda,Uganda
+37,NACIONALITAT_INI,145,Antigua i Barbuda,Antigua y barbuda,Antigua and Barbuda
+37,NACIONALITAT_INI,146,Myanmar,Myanmar,Myanmar
+37,NACIONALITAT_INI,147,São Tomé i Príncipe,Santo tomé y Príncipe,São Tomé and Príncipe
+37,NACIONALITAT_INI,149,Singapur,Singapur,Singapore
+37,NACIONALITAT_INI,150,Txad,Chad,Chad
+37,NACIONALITAT_INI,151,Qatar,Qatar,Qatar
+37,NACIONALITAT_INI,152,Burundi,Burundi,Burundi
+37,NACIONALITAT_INI,153,Malta,Malta,Malta
+37,NACIONALITAT_INI,154,Guyana,Guyana,Guyana
+37,NACIONALITAT_INI,156,Zàmbia,Zambia,Zambia
+37,NACIONALITAT_INI,158,Islàndia,Islandia,Iceland
+37,NACIONALITAT_INI,159,Tadjikistan,Tayikistán,Tajikistan
+37,NACIONALITAT_INI,161,República Centreafricana,República Centroafricana,Central African Republic
+37,NACIONALITAT_INI,162,Malawi,Malawi,Malawi
+37,NACIONALITAT_INI,164,San Marino,San Marino,San Marino
+37,NACIONALITAT_INI,166,Lao,Laos,Laos
+37,NACIONALITAT_INI,167,Kiribati,Kiribati,Kiribati
+37,NACIONALITAT_INI,168,Jamaica,Jamaica,Jamaica
+37,NACIONALITAT_INI,169,Mònaco,Mónaco,Monaco
+37,NACIONALITAT_INI,170,Kuwait,Kuwait,Kuwait
+37,NACIONALITAT_INI,171,Tonga,Tonga,Tonga
+37,NACIONALITAT_INI,172,Illes Salomó,Islas Salomón,Solomon Islands
+37,NACIONALITAT_INI,174,Liechtenstein,Liechtenstein,Liechtenstein
+37,NACIONALITAT_INI,175,Grenada,Granada,Grenada
+37,NACIONALITAT_INI,176,Eritrea,Eritrea,Eritrea
+37,NACIONALITAT_INI,177,Puerto Rico,Puerto Rico,Puerto Rico
+37,NACIONALITAT_INI,178,Surinam,Surinam,Suriname
+37,NACIONALITAT_INI,180,Trinidad i Tobago,Trinidad y Tobago,Trinidad and Tobago
+37,NACIONALITAT_INI,999,No consta,No consta,Not available
+38,NACIONALITAT_DEST,1,Espanya,España,Spain
+38,NACIONALITAT_DEST,2,Itàlia,Italia,Italy
+38,NACIONALITAT_DEST,3,França,Francia,France
+38,NACIONALITAT_DEST,4,Portugal,Portugal,Portugal
+38,NACIONALITAT_DEST,5,Alemanya,Alemania,Germany
+38,NACIONALITAT_DEST,6,Perú,Perú,Peru
+38,NACIONALITAT_DEST,7,Regne Unit,Reino Unido,United Kingdom
+38,NACIONALITAT_DEST,8,"Marroc, el",Marruecos,Morocco
+38,NACIONALITAT_DEST,9,República Dominicana,República Dominicana,Dominican Republic
+38,NACIONALITAT_DEST,10,Argentina,Argentina,Argentina
+38,NACIONALITAT_DEST,11,Colòmbia,Colombia,Colombia
+38,NACIONALITAT_DEST,12,Equador,Ecuador,Ecuador
+38,NACIONALITAT_DEST,13,Filipines,Filipinas,Philippines
+38,NACIONALITAT_DEST,14,Sèrbia,Serbia,Serbia
+38,NACIONALITAT_DEST,15,Polònia,Polonia,Poland
+38,NACIONALITAT_DEST,16,Romania,Rumanía,Romania
+38,NACIONALITAT_DEST,17,"Estats Units, els","Estados Unidos, Los",United States
+38,NACIONALITAT_DEST,18,Xina,China,China
+38,NACIONALITAT_DEST,19,Irlanda,Irlanda,Ireland
+38,NACIONALITAT_DEST,20,Pakistan,Pakistán,Pakistan
+38,NACIONALITAT_DEST,22,Veneçuela,Venezuela,Venezuela
+38,NACIONALITAT_DEST,23,Rússia,Rusia,Russia
+38,NACIONALITAT_DEST,25,Països Baixos,Países Bajos,Netherlands
+38,NACIONALITAT_DEST,26,Bolívia,Bolivia,Bolivia
+38,NACIONALITAT_DEST,27,Brasil,Brasil,Brazil
+38,NACIONALITAT_DEST,28,Xile,Chile,Chile
+38,NACIONALITAT_DEST,29,Bèlgica,Bélgica,Belgium
+38,NACIONALITAT_DEST,30,Suïssa,Suiza,Switzerland
+38,NACIONALITAT_DEST,31,Suècia,Suecia,Sweden
+38,NACIONALITAT_DEST,32,Mèxic,México,Mexico
+38,NACIONALITAT_DEST,33,Índia,India,India
+38,NACIONALITAT_DEST,34,Algèria,Argelia,Algeria
+38,NACIONALITAT_DEST,35,Ucraïna,Ucrania,Ukraine
+38,NACIONALITAT_DEST,36,Uruguai,Uruguay,Uruguay
+38,NACIONALITAT_DEST,37,Cuba,Cuba,Cuba
+38,NACIONALITAT_DEST,38,Hondures,Honduras,Honduras
+38,NACIONALITAT_DEST,39,Guinea Equatorial,Guinea Ecuatorial,Equatorial Guinea
+38,NACIONALITAT_DEST,40,Corea del Sud,Corea,South Korea
+38,NACIONALITAT_DEST,41,Croàcia,Croacia,Croatia
+38,NACIONALITAT_DEST,42,Bangladesh,Bangladesh,Bangladesh
+38,NACIONALITAT_DEST,43,Grècia,Grecia,Greece
+38,NACIONALITAT_DEST,44,Guinea,Guinea,Guinea
+38,NACIONALITAT_DEST,45,Àustria,Austria,Austria
+38,NACIONALITAT_DEST,46,Andorra,Andorra,Andorra
+38,NACIONALITAT_DEST,47,Hongria,Hungría,Hungary
+38,NACIONALITAT_DEST,48,El Salvador,El Salvador,El Salvador
+38,NACIONALITAT_DEST,49,Bulgària,Bulgaria,Bulgaria
+38,NACIONALITAT_DEST,50,Nigèria,Nigeria,Nigeria
+38,NACIONALITAT_DEST,51,Canadà,Canadá,Canada
+38,NACIONALITAT_DEST,52,Belarús,Belarús,Belarus
+38,NACIONALITAT_DEST,54,Senegal,Senegal,Senegal
+38,NACIONALITAT_DEST,55,Japó,Japón,Japan
+38,NACIONALITAT_DEST,56,Israel,Israel,Israel
+38,NACIONALITAT_DEST,57,Geòrgia,Georgia,Georgia
+38,NACIONALITAT_DEST,58,Síria,Siria,Syria
+38,NACIONALITAT_DEST,59,Eslovàquia,República Eslovaca,Slovakia
+38,NACIONALITAT_DEST,60,Lituània,Lituania,Lithuania
+38,NACIONALITAT_DEST,61,Armènia,Armenia,Armenia
+38,NACIONALITAT_DEST,62,Paraguai,Paraguay,Paraguay
+38,NACIONALITAT_DEST,63,Dinamarca,Dinamarca,Denmark
+38,NACIONALITAT_DEST,64,Ghana,Ghana,Ghana
+38,NACIONALITAT_DEST,65,Montenegro,Montenegro,Montenegro
+38,NACIONALITAT_DEST,66,Letònia,Letonia,Latvia
+38,NACIONALITAT_DEST,67,Txèquia,República Checa,Czechia
+38,NACIONALITAT_DEST,68,Moldàvia,Moldavia,Moldova
+38,NACIONALITAT_DEST,69,Eslovènia,Eslovenia,Slovenia
+38,NACIONALITAT_DEST,70,Finlàndia,Finlandia,Finland
+38,NACIONALITAT_DEST,71,Guinea-Bissau,Guinea-Bissau,Guinea-Bissau
+38,NACIONALITAT_DEST,72,Líban,Líbano,Lebanon
+38,NACIONALITAT_DEST,73,Noruega,Noruega,Norway
+38,NACIONALITAT_DEST,75,Xipre,Chipre,Cyprus
+38,NACIONALITAT_DEST,76,Jordània,Jordania,Jordan
+38,NACIONALITAT_DEST,77,Costa Rica,Costa rica,Costa Rica
+38,NACIONALITAT_DEST,78,Austràlia,Australia,Australia
+38,NACIONALITAT_DEST,79,Bòsnia i Hercegovina,Bosnia y Herzegovina,Bosnia and Herzegovina
+38,NACIONALITAT_DEST,80,Dominica,Dominica,Dominica
+38,NACIONALITAT_DEST,81,Tunísia,Túnez,Tunisia
+38,NACIONALITAT_DEST,82,Estònia,Estonia,Estonia
+38,NACIONALITAT_DEST,83,Egipte,Egipto,Egypt
+38,NACIONALITAT_DEST,84,Azerbaidjan,Azerbaiyán,Azerbaijan
+38,NACIONALITAT_DEST,85,Albània,Albania,Albania
+38,NACIONALITAT_DEST,86,Iran,Irán,Iran
+38,NACIONALITAT_DEST,87,Líbia,Libia,Libya
+38,NACIONALITAT_DEST,88,Palestina,"Palestina. Estado Observador, no miembro de Naciones Unidas",Palestine
+38,NACIONALITAT_DEST,89,Camerun,Camerún,Cameroon
+38,NACIONALITAT_DEST,90,Nicaragua,Nicaragua,Nicaragua
+38,NACIONALITAT_DEST,91,Luxemburg,Luxemburgo,Luxembourg
+38,NACIONALITAT_DEST,92,Malta,Malta,Malta
+38,NACIONALITAT_DEST,93,Kazakhstan,Kazajstán,Kazakhstan
+38,NACIONALITAT_DEST,94,Singapur,Singapur,Singapore
+38,NACIONALITAT_DEST,95,Uzbekistan,Uzbekistán,Uzbekistan
+38,NACIONALITAT_DEST,96,Congo,Congo,Congo Republic
+38,NACIONALITAT_DEST,97,Guatemala,Guatemala,Guatemala
+38,NACIONALITAT_DEST,98,Turquia,Turquía,Turkey
+38,NACIONALITAT_DEST,99,Panamà,Panamá,Panama
+38,NACIONALITAT_DEST,100,Costa d'Ivori,Costa de marfil,Ivory Coast
+38,NACIONALITAT_DEST,101,Sierra Leone,Sierra leona,Sierra Leone
+38,NACIONALITAT_DEST,102,Níger,Níger,Niger
+38,NACIONALITAT_DEST,103,Sud-àfrica,Sudáfrica,South Africa
+38,NACIONALITAT_DEST,104,Mauritània,Mauritania,Mauritania
+38,NACIONALITAT_DEST,105,Angola,Angola,Angola
+38,NACIONALITAT_DEST,106,Benín,Benin,Benin
+38,NACIONALITAT_DEST,107,Vietnam,Vietnam,Vietnam
+38,NACIONALITAT_DEST,108,Vanuatu,Vanuatu,Vanuatu
+38,NACIONALITAT_DEST,109,Corea del Nord,Corea del Norte,North Korea
+38,NACIONALITAT_DEST,111,Kirguizstan,Kirguistán,Kyrgyzstan
+38,NACIONALITAT_DEST,112,Nepal,Nepal,Nepal
+38,NACIONALITAT_DEST,114,Sri Lanka,Sri Lanka,Sri Lanka
+38,NACIONALITAT_DEST,115,Gàmbia,Gambia,Gambia
+38,NACIONALITAT_DEST,116,Tadjikistan,Tayikistán,Tajikistan
+38,NACIONALITAT_DEST,117,Nova Zelanda,Nueva Zelanda,New Zealand
+38,NACIONALITAT_DEST,118,Aràbia Saudí,Arabia Saudí,Saudi Arabia
+38,NACIONALITAT_DEST,119,Tailàndia,Tailandia,Thailand
+38,NACIONALITAT_DEST,120,Saint Kitts i Nevis,San Cristóbal y Nieves,St Kitts and Nevis
+38,NACIONALITAT_DEST,122,Islàndia,Islandia,Iceland
+38,NACIONALITAT_DEST,123,Liechtenstein,Liechtenstein,Liechtenstein
+38,NACIONALITAT_DEST,124,Cap Verd,Cabo Verde,Cabo Verde
+38,NACIONALITAT_DEST,125,Macedònia,Macedonia,North Macedonia
+38,NACIONALITAT_DEST,126,"Emirats Àrabs Units, els",Emiratos Árabes Unidos,United Arab Emirates
+38,NACIONALITAT_DEST,127,Mali,Mali,Mali
+38,NACIONALITAT_DEST,128,Etiòpia,Etiopía,Ethiopia
+38,NACIONALITAT_DEST,129,Tanzània,Tanzania,Tanzania
+38,NACIONALITAT_DEST,130,Eritrea,Eritrea,Eritrea
+38,NACIONALITAT_DEST,131,Malàisia,Malasia,Malaysia
+38,NACIONALITAT_DEST,132,Turkmenistan,Turkmenistán,Turkmenistan
+38,NACIONALITAT_DEST,133,"Sudan, el",Sudán,Sudan
+38,NACIONALITAT_DEST,134,San Marino,San Marino,San Marino
+38,NACIONALITAT_DEST,135,Burkina Faso,Burkina Faso,Burkina Faso
+38,NACIONALITAT_DEST,136,Botswana,Botswana,Botswana
+38,NACIONALITAT_DEST,137,Kiribati,Kiribati,Kiribati
+38,NACIONALITAT_DEST,138,Mònaco,Mónaco,Monaco
+38,NACIONALITAT_DEST,139,Haití,Haití,Haiti
+38,NACIONALITAT_DEST,140,Afganistan,Afganistán,Afghanistan
+38,NACIONALITAT_DEST,141,República Democràtica del Congo,República Democrática del Congo,DR Congo
+38,NACIONALITAT_DEST,143,"Iraq, l'",Iraq,Iraq
+38,NACIONALITAT_DEST,144,Kenya,Kenia,Kenya
+38,NACIONALITAT_DEST,145,Seychelles,Seychelles,Seychelles
+38,NACIONALITAT_DEST,999,No consta,No consta,Not available
