@@ -1,3 +1,7 @@
+# GLOBAL del visualitzador
+# TFM - UOC
+# Albert Salvador Yuste
+
 suppressWarnings(suppressMessages({
   
   if (!require(pacman)) install.packages("pacman", dependencies = T); library(pacman)
@@ -118,13 +122,37 @@ suppressWarnings(suppressMessages({
   
   ########
   
-  #### Domicilis per nombre de persones ####
+  #### Domicilis per tipus de vivenda ####
   tipus_domicili_df <- read_csv(file.path(here(), "data/L1/pad_dom_mdb_tipus-domicili.csv"))
+  
+  # Reduïm algunes variables
+  tipus_domicili_df <- tipus_domicili_df %>%
+    mutate(TIPUS_DOMICILI = 
+             if_else(TIPUS_DOMICILI %in% c(1,2), 1,
+                     if_else(TIPUS_DOMICILI %in% c(3,4),2,
+                             if_else(TIPUS_DOMICILI %in% c(5:8), TIPUS_DOMICILI-2,
+                                     if_else(TIPUS_DOMICILI %in% c(9, 10), 7,
+                                             TIPUS_DOMICILI - 3)))))
   
   dimensions_domicili <- dimensions_pad %>%
     filter(Desc_Dimensio == "TIPUS_DOMICILI") %>%
     subset(select = c(Codi_Valor, Desc_Valor_CA)) %>%
     rename(TIPUS_DOMICILI = Codi_Valor)
+  
+  dimensions_domicili_new <- tibble(
+    "TIPUS_DOMICILI" = c(1:9),
+    "Desc_Valor_CA" = c("Una persona de 18 a 64 anys",
+                        "Una persona de 65 anys i més",
+                        dimensions_domicili$Desc_Valor_CA[5:8],
+                        "Dues persones o més: una de 18 anys i més amb altres menors de 18 anys",
+                        dimensions_domicili$Desc_Valor_CA[11:12])
+  )
+  
+  tipus_domicili_df <- tipus_domicili_df %>%
+    group_by(Data_Referencia, Codi_Barri, TIPUS_DOMICILI) %>%
+    mutate(Domicilis = sum(Domicilis, na.rm = T)) %>%
+    slice_head(n = 1) %>%
+    ungroup()
   
   tipus_domicili_barri <- tipus_domicili_df %>%
     group_by(Data_Referencia, Codi_Barri, TIPUS_DOMICILI) %>%
@@ -134,7 +162,7 @@ suppressWarnings(suppressMessages({
            Perc_Domicilis = Domicilis/REF_Domicilis) %>%
     ungroup() %>%
     left_join(info_barris[,c(1:2)]) %>%
-    left_join(dimensions_domicili)
+    left_join(dimensions_domicili_new)
   
   tipus_domicili_districte <- tipus_domicili_df %>%
     group_by(Data_Referencia, Codi_Districte, TIPUS_DOMICILI) %>%
@@ -144,7 +172,7 @@ suppressWarnings(suppressMessages({
            Perc_Domicilis = Domicilis/REF_Domicilis) %>%
     ungroup() %>%
     left_join(info_districtes[,c(1:2)]) %>%
-    left_join(dimensions_domicili)
+    left_join(dimensions_domicili_new)
   
   tipus_domicili_ciutat <- tipus_domicili_df %>%
     group_by(Data_Referencia, Codi_Ciutat, TIPUS_DOMICILI) %>%
@@ -154,7 +182,7 @@ suppressWarnings(suppressMessages({
            Perc_Domicilis = Domicilis/REF_Domicilis) %>%
     ungroup() %>%
     left_join(info_ciutat[,c(1:2)]) %>%
-    left_join(dimensions_domicili)
+    left_join(dimensions_domicili_new)
   
   ########
   
@@ -340,10 +368,6 @@ suppressWarnings(suppressMessages({
               onclick = JS("function () {
                   this.exportChartLocal({ type: 'image/svg+xml' }); }")
             )
-            # list(
-            #   text = "Alert personalitzada",
-            #   onclick = JS("function () { alert('Això és una alerta personalitzada!'); }")
-            # )
           )
         )
       )

@@ -1,3 +1,7 @@
+# SERVER del visualitzador
+# TFM - UOC
+# Albert Salvador Yuste
+
 server <- function(input, output, session) {
   
   nom_tab <- reactive(input$tabs)
@@ -129,7 +133,6 @@ server <- function(input, output, session) {
     
     if (input$nivell_territorial != "Ciutat"){
       # Si no és ciutat, mirem quin codi volem filtrar
-      # if (input$seleccio_territorial != "Tots"){
       if (!is.null(input$seleccio_territorial)){
         # Apliquem un filtre a la columna indicada amb el codi corresponent
         df_filter <- df_estudi %>%
@@ -211,7 +214,6 @@ server <- function(input, output, session) {
     plot_dades <- plot_dades() %>%
       mutate(Preu_Lloguer = floor(Preu_Lloguer))
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -257,13 +259,11 @@ server <- function(input, output, session) {
              Perc_Poblacio = round(Perc_Poblacio*100, 2)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$nivell_estudi_selector != "Tots"){
     if (!is.null(input$nivell_estudi_selector)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$nivell_estudi_selector)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -294,13 +294,11 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$nivell_estudi_selector != "Tots"){
     if (!is.null(input$nivell_estudi_selector)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$nivell_estudi_selector)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -330,20 +328,16 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA),
              Perc_Poblacio = round(Perc_Poblacio*100, 2))
     
-    
-    # if (input$nivell_estudi_selector != "Tots"){
     if (!is.null(input$nivell_estudi_selector)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$nivell_estudi_selector)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (length(input$seleccio_territorial)==1){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
     } else {
       
-      # if (input$nivell_estudi_selector != "Tots"){
       if (!is.null(input$seleccio_territorial)){
         plot_dades <- plot_dades %>%
           filter(NOM %in% input$seleccio_territorial)
@@ -398,13 +392,11 @@ server <- function(input, output, session) {
              Perc_Domicilis = round(Perc_Domicilis*100, 2)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$tipus_domicili_selector != "Tots"){
     if (!is.null(input$tipus_domicili_selector)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$tipus_domicili_selector)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -437,13 +429,11 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$tipus_domicili_selector != "Tots"){
     if (!is.null(input$tipus_domicili_selector)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$tipus_domicili_selector)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -473,23 +463,20 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA),
              Perc_Domicilis = round(Perc_Domicilis*100, 2))
     
-    # if (input$tipus_domicili_selector != "Tots"){
     if (!is.null(input$tipus_domicili_selector)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$tipus_domicili_selector)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (length(input$seleccio_territorial)==1){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
     } else {
-      # if (input$tipus_domicili_selector != "Tots"){
       if (!is.null(input$seleccio_territorial)){
         plot_dades <- plot_dades %>%
           filter(NOM %in% input$seleccio_territorial)
       }
-      if(length(input$nivell_estudi_selector)==1){
+      if(length(input$tipus_domicili_selector)==1){
         variable_grup <- "NOM"
       } else {
         plot_dades <- plot_dades %>%
@@ -538,13 +525,11 @@ server <- function(input, output, session) {
              Perc_Poblacio = round(Perc_Poblacio*100, 2)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$origen_poblacio != "Tots"){
     if (!is.null(input$origen_poblacio)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$origen_poblacio)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -574,13 +559,11 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$origen_poblacio != "Tots"){
     if (!is.null(input$origen_poblacio)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$origen_poblacio)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -610,18 +593,15 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA),
              Perc_Poblacio = round(Perc_Poblacio*100, 2))
     
-    # if (input$origen_poblacio != "Tots"){
     if (!is.null(input$origen_poblacio)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$origen_poblacio)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (length(input$seleccio_territorial)==1){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
     } else {
-      # if (input$tipus_domicili_selector != "Tots"){
       if (!is.null(input$seleccio_territorial)){
         plot_dades <- plot_dades %>%
           filter(NOM %in% input$seleccio_territorial)
@@ -696,7 +676,6 @@ server <- function(input, output, session) {
     plot_dades <- plot_dades() %>%
       mutate(Import_Renda_Bruta = floor(Import_Renda_Bruta))
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -755,13 +734,11 @@ server <- function(input, output, session) {
              Perc_Poblacio = round(Perc_Poblacio*100, 2)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$grup_edat != "Tots"){
     if (!is.null(input$grup_edat)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$grup_edat)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -792,13 +769,11 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA)) %>%
       filter(Data_Referencia == input$any_selector)
     
-    # if (input$grup_edat != "Tots"){
     if (!is.null(input$grup_edat)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$grup_edat)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (!is.null(input$seleccio_territorial)){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
@@ -828,18 +803,15 @@ server <- function(input, output, session) {
       mutate(Desc_Valor_CA = as.factor(Desc_Valor_CA),
              Perc_Poblacio = round(Perc_Poblacio*100, 2))
     
-    # if (input$grup_edat != "Tots"){
     if (!is.null(input$grup_edat)){
       plot_dades <- plot_dades %>%
         filter(Desc_Valor_CA %in% input$grup_edat)
     }
     
-    # if (input$seleccio_territorial != "Tots"){
     if (length(input$seleccio_territorial)==1){
       plot_dades <- plot_dades %>%
         filter(NOM %in% input$seleccio_territorial)
     } else {
-      # if (input$tipus_domicili_selector != "Tots"){
       if (!is.null(input$seleccio_territorial)){
         plot_dades <- plot_dades %>%
           filter(NOM %in% input$seleccio_territorial)
@@ -924,61 +896,26 @@ server <- function(input, output, session) {
         mutate(Perc_Domicilis = round(Perc_Domicilis*100, 2))
     }
     
-    # # if (input$seleccio_territorial != "Tots"){
-    # if (!is.null(input$seleccio_territorial)){
-    #   # plot_dades <- plot_dades %>%
-    #   #   filter(NOM == input$seleccio_territorial)
-    # } else {
-    #   if (!isFALSE(variable_categoria)){
-    #     # if (input_value != "Tots"){
-    #     if (!is.null(input_value)){
-    #       plot_dades <- plot_dades %>%
-    #         filter(!!sym(variable_grup) %in% input_value)
-    #     } else {
-    #       plot_dades_var <- plot_dades %>%
-    #         group_by(Data_Referencia, !!sym(variable_categoria)) %>%
-    #         mutate(!!variable_abs := sum(!!sym(variable_abs), na.rm = T),
-    #                   !!var_ref := sum(!!sym(var_ref), na.rm = T),
-    #                   !!variable_per := round(100*!!sym(variable_abs)/!!sym(var_ref), 2),
-    #                   Codi_Ciutat = "01") %>%
-    #         ungroup()
-    #     }
-    #   }
-    # }
-    
     if (length(input$seleccio_territorial)==1){
-      # plot_dades <- plot_dades %>%
-      #   filter(NOM %in% input$seleccio_territorial)
+      
     } else {
       if (!is.null(input$seleccio_territorial)){
-        # plot_dades <- plot_dades %>%
-        #   filter(NOM %in% input$seleccio_territorial)
+        
       }
       if (!isFALSE(variable_categoria)){
-        # if (input_value != "Tots"){
         if (length(input_value)==1){
           variable_grup <- "NOM"
         } else {
           plot_dades_var <- plot_dades %>%
-            mutate(Codi_Ciutat = "01")
-            # group_by(Data_Referencia, !!sym(variable_categoria)) %>%
-            # mutate(!!variable_abs := sum(!!sym(variable_abs), na.rm = T),
-            #        !!var_ref := sum(!!sym(var_ref), na.rm = T),
-            #        !!variable_per := round(100*!!sym(variable_abs)/!!sym(var_ref), 2),
-            #        Codi_Ciutat = "01") %>%
-            # ungroup()
+            group_by(Data_Referencia, !!sym(variable_categoria)) %>%
+            mutate(!!variable_abs := sum(!!sym(variable_abs), na.rm = T),
+                   !!var_ref := sum(!!sym(var_ref), na.rm = T),
+                   !!variable_per := round(100*!!sym(variable_abs)/!!sym(var_ref), 2),
+                   Codi_Ciutat = "01") %>%
+            ungroup()
         }
       }
     }
-    
-    # Filtrem les dades segons la variable_categoria i input_value
-    # if (!isFALSE(variable_categoria)){
-    #   # if (input_value != "Tots"){
-    #   if (!is.null(input_value)){
-    #     plot_dades <- plot_dades %>%
-    #       filter(!!sym(variable_grup) %in% input_value)
-    #   }
-    # }
     
     anys_var <- as.numeric(input$anys_variacions)
     
@@ -1065,22 +1002,6 @@ server <- function(input, output, session) {
       
       dades_variacio <- dades_variacio()$original
       
-      # # if(input$seleccio_territorial != "Tots"){
-      # if(!is.null(input$seleccio_territorial)){
-      #   dades_variacio <- dades_variacio %>%
-      #     filter(NOM %in% input$seleccio_territorial)
-      # } else {
-      #   if(!isFALSE(variable_categoria)){
-      #     # if (input_value == "Tots"){
-      #     if (is.null(input_value)){
-      #       dades_variacio <- dades_variacio()$plot_var %>%
-      #         group_by(Data_Referencia, Codi_Ciutat, !!sym(variable_categoria)) %>%
-      #         slice_head(n = 1) %>%
-      #         ungroup()
-      #     }
-      #   }
-      # }
-      
       if(length(input$seleccio_territorial)==1){
         dades_variacio <- dades_variacio %>%
           filter(NOM %in% input$seleccio_territorial)
@@ -1090,7 +1011,6 @@ server <- function(input, output, session) {
             filter(NOM %in% input$seleccio_territorial)
         }
         if(!isFALSE(variable_categoria)){
-          # if (input_value == "Tots"){
           if (length(input_value)!=1){
             dades_variacio <- dades_variacio()$plot_var
             if(length(input$seleccio_territorial)>0){
@@ -1191,7 +1111,6 @@ server <- function(input, output, session) {
       
       dades_variacio <- dades_variacio()$original
       
-      # if(input$seleccio_territorial != "Tots"){
       if(length(input$seleccio_territorial)==1){
         dades_variacio <- dades_variacio %>%
           filter(NOM %in% input$seleccio_territorial)
@@ -1201,7 +1120,6 @@ server <- function(input, output, session) {
             filter(NOM %in% input$seleccio_territorial)
         }
         if(!isFALSE(variable_categoria)){
-          # if (input_value == "Tots"){
           if (length(input_value)!=1){
             dades_variacio <- dades_variacio()$plot_var
             if(length(input$seleccio_territorial)>0){
@@ -1336,7 +1254,6 @@ server <- function(input, output, session) {
       nom_eix_y <- "Població"
     }
     
-    # if (input$nivell_estudi_selector %in% c("Tots")){
     if (length(input$nivell_estudi_selector)!=1){
       domini_valors <- c(1:length(unique(sf_dades %>% pull(variable_grup))))
       titol_llegenda <- "Nivell d'estudis majoritari"
@@ -1392,7 +1309,6 @@ server <- function(input, output, session) {
                                  input$percentatge,": ", get(variable_repres)) %>% lapply(., HTML)) %>%
       addRasterImage(raster_dades, opacity = 0.7, colors = paleta_espectral, project = F)
     
-    # if (input$nivell_estudi_selector %in% c("Tots")){
     if (length(input$nivell_estudi_selector)!=1){
       
       labels_llegenda <- dimensions_pad %>%
@@ -1405,13 +1321,11 @@ server <- function(input, output, session) {
                                 paste0(labels_tallades, "..."),
                                 labels_tallades)
       
-      # colors_paleta <- colorRampPalette(brewer.pal(length(domini_valors),"viridis"))
       colors_paleta <- viridis_pal()(length(domini_valors))
       
       mapa %>% addLegend(position = "topright",
                          title = titol_llegenda,
                          opacity = 1,
-                         # colors = colors_paleta(length(domini_valors)),
                          colors = colors_paleta,
                          values = domini_valors,
                          labels = labels_tallades)
@@ -1442,7 +1356,6 @@ server <- function(input, output, session) {
       nom_eix_y <- "Domicilis"
     }
     
-    # if (input$tipus_domicili_selector %in% c("Tots")){
     if (length(input$tipus_domicili_selector)!=1){
       domini_valors <- c(1:length(unique(sf_dades %>% pull(variable_grup))))
       titol_llegenda <- "Tipus de domicili majoritari"
@@ -1499,11 +1412,9 @@ server <- function(input, output, session) {
                                  input$percentatge,": ", get(variable_repres)) %>% lapply(., HTML)) %>%
       addRasterImage(raster_dades, opacity = 0.7, colors = paleta_espectral, project = F)
     
-    # if (input$tipus_domicili_selector %in% c("Tots")){
     if (length(input$tipus_domicili_selector)!=1){
       
-      labels_llegenda <- dimensions_pad %>%
-        filter(Desc_Dimensio == "TIPUS_DOMICILI") %>%
+      labels_llegenda <- dimensions_domicili_new %>%
         pull(Desc_Valor_CA) %>%
         intersect(unique(sf_dades() %>% pull(variable_grup)))
       
@@ -1512,13 +1423,11 @@ server <- function(input, output, session) {
                                 paste0(labels_tallades, "..."),
                                 labels_tallades)
       
-      # colors_paleta <- colorRampPalette(brewer.pal(length(domini_valors),"viridis"))
       colors_paleta <- viridis_pal()(length(domini_valors))
       
       mapa %>% addLegend(position = "topright",
                          title = titol_llegenda,
                          opacity = 1,
-                         # colors = colors_paleta(length(domini_valors)),
                          colors = colors_paleta,
                          values = domini_valors,
                          labels = labels_tallades)
@@ -1549,7 +1458,6 @@ server <- function(input, output, session) {
       nom_eix_y <- "Població"
     }
     
-    # if (input$origen_poblacio %in% c("Tots")){
     if (length(input$origen_poblacio)!=1){
       
       domini_valors <- c(1:length(unique(sf_dades %>% pull(variable_grup))))
@@ -1607,7 +1515,6 @@ server <- function(input, output, session) {
                                  input$percentatge,": ", get(variable_repres)) %>% lapply(., HTML)) %>%
       addRasterImage(raster_dades, opacity = 0.7, colors = paleta_espectral, project = F)
     
-    # if (input$origen_poblacio %in% c("Tots")){
     if (length(input$origen_poblacio)!=1){
       
       labels_llegenda <- unique(dimensio_pais$Desc_Valor_CA) %>%
@@ -1618,13 +1525,11 @@ server <- function(input, output, session) {
                                 paste0(labels_tallades, "..."),
                                 labels_tallades)
       
-      # colors_paleta <- colorRampPalette(brewer.pal(length(domini_valors),"viridis"))
       colors_paleta <- viridis_pal()(length(domini_valors))
       
       mapa %>% addLegend(position = "topright",
                          title = titol_llegenda,
                          opacity = 1,
-                         # colors = colors_paleta(length(domini_valors)),
                          colors = colors_paleta,
                          values = domini_valors,
                          labels = labels_tallades)
@@ -1724,7 +1629,6 @@ server <- function(input, output, session) {
       nom_eix_y <- "Població"
     }
     
-    # if (input$grup_edat %in% c("Tots")){
     if (length(input$grup_edat)!=1){
       
       domini_valors <- c(1:length(unique(sf_dades %>% pull(variable_grup))))
@@ -1782,7 +1686,6 @@ server <- function(input, output, session) {
                                  input$percentatge,": ", get(variable_repres)) %>% lapply(., HTML)) %>%
       addRasterImage(raster_dades, opacity = 0.7, colors = paleta_espectral, project = F)
     
-    # if (input$grup_edat %in% c("Tots")){
     if (length(input$grup_edat)!=1){
       
       labels_llegenda <- unique(dimensio_edat$Desc_Valor_CA) %>%
@@ -1793,13 +1696,11 @@ server <- function(input, output, session) {
                                 paste0(labels_tallades, "..."),
                                 labels_tallades)
       
-      # colors_paleta <- colorRampPalette(brewer.pal(length(domini_valors),"viridis"))
       colors_paleta <- viridis_pal()(length(domini_valors))
       
       mapa %>% addLegend(position = "topright",
                          title = titol_llegenda,
                          opacity = 1,
-                         # colors = colors_paleta(length(domini_valors)),
                          colors = colors_paleta,
                          values = domini_valors,
                          labels = labels_tallades)
@@ -1860,7 +1761,6 @@ server <- function(input, output, session) {
     
     
     if (!isFALSE(variable_categoria)){
-      # if(input_value == "Tots"){
       if(length(input_value)!=1){
         
         domini_valors <- c(1:length(unique(sf_dades_var %>% pull(variable_grup))))
@@ -1889,9 +1789,14 @@ server <- function(input, output, session) {
             labels_llegenda <- dimensio_edat %>%
               pull(Desc_Valor_CA)
           } else {
-          labels_llegenda <- dimensions_pad %>%
-            filter(Desc_Dimensio == variable_categoria) %>%
-            pull(Desc_Valor_CA)
+            if (variable_categoria == "TIPUS_DOMICILI"){
+              labels_llegenda <- dimensions_domicili_new %>%
+                pull(Desc_Valor_CA)
+              } else {
+                labels_llegenda <- dimensions_pad %>%
+                  filter(Desc_Dimensio == variable_categoria) %>%
+                  pull(Desc_Valor_CA)
+              }
           }
         }
         
@@ -1903,7 +1808,6 @@ server <- function(input, output, session) {
                                   paste0(labels_tallades, "..."),
                                   labels_tallades)
         
-        # colors_paleta <- colorRampPalette(brewer.pal(length(domini_valors),"viridis"))
         colors_paleta <- viridis_pal()(length(domini_valors))
       } else {
         
@@ -1949,13 +1853,11 @@ server <- function(input, output, session) {
                                    input$nivell_territorial,": ", NOM, "<br>",
                                    "Variació: ", Var) %>% lapply(., HTML))
       
-      # if(input_value == "Tots"){
       if(length(input_value)!=1){
         
         mapa %>% addLegend(position = "topright",
                            title = titol_llegenda,
                            opacity = 1,
-                           # colors = colors_paleta(length(domini_valors)),
                            colors = colors_paleta,
                            values = domini_valors,
                            labels = labels_tallades)
@@ -2030,7 +1932,6 @@ server <- function(input, output, session) {
     dades_variacio <- dades_variacio()
     
     if (!isFALSE(variable_categoria)){
-      # if(input_value == "Tots"){
       if(length(input_value)!=1){
         
         domini_valors <- c(1:length(unique(sf_dades_var %>% pull(variable_grup))))
@@ -2059,9 +1960,14 @@ server <- function(input, output, session) {
             labels_llegenda <- dimensio_edat %>%
               pull(Desc_Valor_CA)
           } else {
-            labels_llegenda <- dimensions_pad %>%
-              filter(Desc_Dimensio == variable_categoria) %>%
-              pull(Desc_Valor_CA)
+            if (variable_categoria == "TIPUS_DOMICILI"){
+              labels_llegenda <- dimensions_domicili_new %>%
+                pull(Desc_Valor_CA)
+            } else {
+              labels_llegenda <- dimensions_pad %>%
+                filter(Desc_Dimensio == variable_categoria) %>%
+                pull(Desc_Valor_CA)
+            }
           }
         }
         
@@ -2073,7 +1979,6 @@ server <- function(input, output, session) {
                                   paste0(labels_tallades, "..."),
                                   labels_tallades)
         
-        # colors_paleta <- colorRampPalette(brewer.pal(length(domini_valors),"viridis"))
         colors_paleta <- viridis_pal()(length(domini_valors))
       } else {
         
@@ -2220,8 +2125,9 @@ server <- function(input, output, session) {
     canviar_etiqueta <- function(df) {
       tibble(cluster = df$cluster) %>%
         mutate(cluster = case_when(
-          cluster == 2 ~ 3,
+          cluster == 1 ~ 3,
           cluster == 3 ~ 2,
+          cluster == 2 ~ 1,
           TRUE ~ cluster
         ))
     }
@@ -2270,7 +2176,6 @@ server <- function(input, output, session) {
     sf_dades_represent <- sf_dades_represent %>%
       mutate(width_value = if_else(NOM %in% input$seleccio_territorial, 5, 1.5))
     
-    print(sf_dades_represent)
     paleta_espectral <- colorFactor(
       "viridis", 
       domain = c(1:3),
@@ -2291,9 +2196,9 @@ server <- function(input, output, session) {
                 opacity = 1,
                 colors = paleta_espectral(1:3),
                 values = c(1:3),
-                labels = c("Gentrificant",
-                           "Lleugera tendència gentrificadora",
-                           "Sense dinàmiques gentrificadores"))
+                labels = c("N1 - Gentrificant",
+                           "N2 - Lleugera tendència gentrificadora",
+                           "N3 - Sense dinàmiques gentrificadores"))
     
   })
   
@@ -2337,19 +2242,73 @@ server <- function(input, output, session) {
                                                       bringToFront = TRUE),
                   label = ~paste("Barri: ", NOM, "<br>",
                                  "Grup Gentrificació: ", cluster, "<br>",
-                                 "Puntació Gentrificació: ", round(Punt_Gentrificacio, 2)) %>% lapply(., HTML)) %>%
+                                 "Puntació Gentrificació: ", Punt_Gentrificacio) %>% lapply(., HTML)) %>%
       addLegend(position = "topright",
                 title = "Índex gentrificació ",
                 opacity = 1,
                 colors = paleta_espectral(1:3),
                 values = c(1:3),
-                labels = c("Gentrificant",
-                           "Lleugera tendència gentrificadora",
-                           "Sense dinàmiques gentrificadores"))
+                labels = c("N1 - Gentrificant",
+                           "N2 - Lleugera tendència gentrificadora",
+                           "N3 - Sense dinàmiques gentrificadores"))
     
   })
   
-  output$taula_comparativa <- renderDT({
+  output$mapa_gentrificacio_puntuacions <- renderLeaflet({
+    
+    df_gentrificacio_clusters <- Map(function(df, clust){
+      df$cluster <- clust$cluster
+      return(df)
+    }, df_gentrificacio, lopez_gay_clusters())
+    
+    sf_dades <- lapply(df_gentrificacio_clusters, function(x){
+      info_barris %>% st_as_sf %>% left_join(x)
+    })
+    
+    puntuacio_gentrificacio <- input$puntuacio_gen %>% as.character
+    
+    raster_dades <- raster(ext = extent(info_barris %>% st_as_sf))
+    
+    raster_gentrificacio <- lapply(sf_dades, function(x){
+      rasterize(x, raster_dades, field = puntuacio_gentrificacio)
+    })
+    
+    any_represent <- input$any_selector %>% as.character
+    
+    raster_represent <- raster_gentrificacio[[any_represent]]
+    sf_dades_represent <- sf_dades[[any_represent]]
+    
+    sf_dades_represent <- sf_dades_represent %>%
+      mutate(width_value = if_else(NOM %in% input$seleccio_territorial, 5, 1.5))
+    
+    domini_valors <- seq(min(sf_dades_represent %>% pull(puntuacio_gentrificacio), na.rm = T),
+                         max(sf_dades_represent %>% pull(puntuacio_gentrificacio), na.rm = T),
+                         length.out = 10)
+    
+    paleta_espectral <- colorNumeric(
+      "viridis", 
+      domain = domini_valors,
+      na.color = "transparent")
+    
+    mapa <- leaflet() %>%
+      addProviderTiles("CartoDB.Positron",
+                       options = providerTileOptions(minZoom = 11)) %>%
+      addRasterImage(raster_represent, opacity = 0.7, colors = paleta_espectral, project = F) %>%
+      addPolygons(data = sf_dades_represent, color = "black", opacity = 1, weight = ~width_value,
+                  highlightOptions = highlightOptions(color = "white",
+                                                      weight = 2,
+                                                      bringToFront = TRUE),
+                  label = ~paste("Barri: ", NOM, "<br>",
+                                 "Grup Gentrificació: ", cluster, "<br>",
+                                 "Puntació: ", round(get(puntuacio_gentrificacio), 2)) %>% lapply(., HTML)) %>%
+      addLegend(position = "topright",
+                title = "Puntuació",
+                opacity = 1,
+                pal = paleta_espectral,
+                values = domini_valors)
+  })
+  
+  output$plot_gentrificacio_classificacions <- renderLeaflet({
     
     valors_quantils <- Map(function(df, clust){
       df$cluster <- clust$cluster
@@ -2361,20 +2320,79 @@ server <- function(input, output, session) {
       return(df)
     }, df_gentrificacio, kmeans_clusters())
     
-    # valors_quantils <- lopez_gay_clusters()
-    # valors_cluster <- kmeans_clusters()
+    puntuacio_gentrificacio <- input$puntuacio_gen %>% as.character
+    any_represent <- input$any_selector %>% as.character
+    metode_estudi <- input$metode_estudi
+    
+    valors_cluster_selected <- valors_cluster[[any_represent]]
+    valors_quantils_selected <- valors_quantils[[any_represent]]
+    
+    if (metode_estudi == "K-Means"){
+      boxplot_input <- data_to_boxplot(valors_cluster_selected, 
+                                       !!sym(puntuacio_gentrificacio), 
+                                       group_var = cluster)
+      
+    } else {
+      boxplot_input <- data_to_boxplot(valors_quantils_selected, 
+                                       !!sym(puntuacio_gentrificacio), 
+                                       group_var = cluster)
+    }
+    
+    highchart() %>%
+      hc_add_series_list(boxplot_input) %>%
+      hc_xAxis(type = "category", title = list(text = "Nivell gentrificació")) %>%
+      hc_yAxis(title = list(text = "Puntuació")) %>%
+      hc_legend(enabled = FALSE) %>%
+      hc_series(name = "Nivell gentrificació")  %>%
+      hc_plotOptions(boxplot = list(
+        lineWidth = 5
+      )) %>%
+      hc_colors(viridis(3)) %>% 
+      hc_plotOptions(series=list(colorByPoint=TRUE)) %>%
+      exportar_highchart()
+    
+    
+    
+  })
+  
+  
+  
+  taula_represent <- reactive({
+    
+    valors_quantils <- Map(function(df, clust){
+      df$cluster <- clust$cluster
+      return(df)
+    }, df_gentrificacio, lopez_gay_clusters())
+    
+    valors_cluster <- Map(function(df, clust){
+      df$cluster <- clust$cluster
+      return(df)
+    }, df_gentrificacio, kmeans_clusters())
     
     any_represent <- input$any_selector %>% as.character
     
     valors_quantils <- valors_quantils[[any_represent]] %>%
       left_join(info_barris[,c("Codi_Barri", "NOM")]) %>% 
-      subset(select = c(Codi_Barri, NOM, cluster, Punt_Gentrificacio)) %>%
-      mutate(Punt_Gentrificacio = round(Punt_Gentrificacio, 2)) %>%
+      mutate(Punt_Gentrificacio = round(Punt_Gentrificacio, 2),
+             Punt_Renda = round(Punt_Renda, 2),
+             Punt_Pisos = round(Punt_Pisos, 2),
+             Punt_Domicilis = round(Punt_Domicilis, 2),
+             Punt_Edat = round(Punt_Edat, 2),
+             Punt_Regio = round(Punt_Regio, 2),
+             Punt_Uni = round(Punt_Uni, 2),
+             Punt_Lloguer = round(Punt_Lloguer, 2)) %>%
       arrange(Codi_Barri) %>%
       rename("Codi Barri" = Codi_Barri,
              "Índex Gentrificació" = Punt_Gentrificacio,
              "Quantil" = cluster,
-             "Barri" = NOM)
+             "Barri" = NOM,
+             "Punt. Renda" = Punt_Renda,
+             "Punt. Pisos turístics" = Punt_Pisos,
+             "Punt. Domicilis unifamiliars" = Punt_Domicilis,
+             "Punt. Edat" = Punt_Edat,
+             "Punt. Lloc naixement" = Punt_Regio,
+             "Punt. Població universitària" = Punt_Uni,
+             "Punt. Lloguer" = Punt_Lloguer)
     
     valors_cluster <- valors_cluster[[any_represent]] %>%
       left_join(info_barris[,c("Codi_Barri", "NOM")]) %>%
@@ -2384,16 +2402,27 @@ server <- function(input, output, session) {
              "K-Means" = cluster,
              "Barri" = NOM)
     
-    full_join(valors_cluster, valors_quantils) %>%
-      datatable(options = list(
-        pageLength = 20
-      ))
+    taula_represent <- full_join(valors_cluster, valors_quantils) %>%
+      relocate("Índex Gentrificació", .before = "Punt. Renda")
     
-    
-    
+    taula_represent %>%
+      mutate("K-Means" = paste0("N",`K-Means`),
+             "Índex Gentrificació" = paste0(round(`Índex Gentrificació`,2),
+                                            " (N", Quantil,")")) %>%
+      subset(select = -c(Quantil))
     
   })
   
+  output$taula_comparativa <- renderDT({
+
+    taula_represent() %>%
+      datatable(options = list(
+        pageLength = 10,
+        lengthMenu = list(c(5, 10), c('5', '10'))
+      ),
+      rownames = FALSE
+    )
+  })
   
   #### MAPA BARRA LATERAL ####
   
@@ -2445,6 +2474,28 @@ server <- function(input, output, session) {
     })
   }
   
+  proxy <- dataTableProxy("taula_comparativa")
+  
+  # Observar canvis en el selector de barris i actualitzar la selecció de files en la taula
+  observeEvent(input$seleccio_territorial, {
+    if (inici_nom_tab() == "gen") {
+      selected_rows <- which(taula_represent()$Barri %in% input$seleccio_territorial)
+      if(length(input$seleccio_territorial)!=0){
+        selectRows(proxy, selected_rows)
+      } else {
+        selectRows(proxy, NULL)
+      }
+    }
+  }, ignoreInit = TRUE)
+  
+  # Observar canvis en la selecció de files en la taula i actualitzar el selector de barris
+  observeEvent(input$taula_comparativa_rows_selected, {
+    if (inici_nom_tab() == "gen") {
+      selected_barris <- taula_represent()$Barri[input$taula_comparativa_rows_selected]
+      updatePickerInput(session, "seleccio_territorial", selected = selected_barris)
+    }
+  }, ignoreInit = TRUE)
+  
   obtenir_info_mapes("mapsidebar_click")
   obtenir_info_mapes("map_lloguer_click")
   obtenir_info_mapes("map_estudis_click")
@@ -2467,4 +2518,57 @@ server <- function(input, output, session) {
   obtenir_info_mapes("map_perc_grupedat_click")
   obtenir_info_mapes("mapa_gentrificacio_cluster_click")
   obtenir_info_mapes("mapa_gentrificacio_quantils_click")
+  obtenir_info_mapes("mapa_gentrificacio_puntuacions_click")
+  
+  #### Etiquetes ####
+  output$lloguer_info_ciutat <-
+    output$estudis_info_ciutat <-
+    output$domicilis_info_ciutat <-
+    output$poborigen_info_ciutat <-
+    output$renda_info_ciutat <-
+    output$turistics_info_ciutat <-
+    output$grupedat_info_ciutat <-
+    output$var_lloguer_info_ciutat <-
+    output$var_estudis_info_ciutat <-
+    output$var_domicilis_info_ciutat <-
+    output$var_poborigen_info_ciutat <-
+    output$var_renda_info_ciutat <-
+    output$var_grupedat_info_ciutat <-
+    output$gentrificacio_info_ciutat <- renderValueBox({
+    valueBox(
+      value = if(is.null(input$seleccio_territorial)){
+        "Barcelona"
+      } else if (length(input$seleccio_territorial)>1){
+        paste0("Varis ",tolower(input$nivell_territorial),"s")
+      } else {
+        input$seleccio_territorial
+      },
+      subtitle = input$nivell_territorial,
+      icon = icon("city"),
+      color = "orange"
+    )
+  })
+  
+  output$lloguer_info_any <-
+    output$estudis_info_any <-
+    output$domicilis_info_any <-
+    output$poborigen_info_any <-
+    output$renda_info_any <-
+    output$turistics_info_any <-
+    output$grupedat_info_any <-
+    output$var_lloguer_info_any <-
+    output$var_estudis_info_any <-
+    output$var_domicilis_info_any <-
+    output$var_poborigen_info_any <-
+    output$var_renda_info_any <-
+    output$var_grupedat_info_any <-
+    output$gentrificacio_info_any <- renderValueBox({
+    valueBox(
+      value = input$any_selector,
+      subtitle = "Any",
+      icon = icon("calendar"),
+      color = "maroon"
+    )
+  })
+  
 }

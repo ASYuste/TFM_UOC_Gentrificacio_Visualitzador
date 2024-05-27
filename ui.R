@@ -1,12 +1,14 @@
+# UI del visualitzador
+# TFM - UOC
+# Albert Salvador Yuste
 
-# Define UI for application
 ui <- dashboardPage(skin = "purple",
   dashboardHeader(title = "UOC - TFM"),
   dashboardSidebar(
     sidebarMenu(
       id = "tabs",
-      menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
-      menuItem("Situació anual", tabName = "situacio_anual",
+      menuItem("Presentació", tabName = "dashboard", icon = icon("person-chalkboard")),
+      menuItem("Anàlisi anual", tabName = "situacio_anual", icon = icon("layer-group"),
                menuSubItem("Lloguer", tabName = "lloguer", icon = icon("house")),
                menuSubItem("Nivell estudis", tabName = "estudis", icon = icon("graduation-cap")),
                menuSubItem("Tipus Domicilis", tabName = "domicilis", icon = icon("people-roof")),
@@ -15,7 +17,7 @@ ui <- dashboardPage(skin = "purple",
                menuSubItem("Habitatges turístics", tabName = "turistics", icon = icon("hotel")),
                menuSubItem("Grups d'edat", tabName = "grupedat", icon = icon("calendar-days"))
                ),
-      menuItem("Variació anual", tabName = "variacio_anual",
+      menuItem("Evolució anual", tabName = "variacio_anual", icon = icon("chart-line"),
                menuSubItem("Lloguer", tabName = "var_lloguer", icon = icon("house")),
                menuSubItem("Nivell estudis", tabName = "var_estudis", icon = icon("graduation-cap")),
                menuSubItem("Tipus Domicilis", tabName = "var_domicilis", icon = icon("people-roof")),
@@ -23,7 +25,7 @@ ui <- dashboardPage(skin = "purple",
                menuSubItem("Renda bruta", tabName = "var_renda", icon = icon("wallet")),
                menuSubItem("Grups d'edat", tabName = "var_grupedat", icon = icon("calendar-days"))
                ),
-      menuItem("Càlcul gentrificació", tabName = "gentrificacio")
+      menuItem("Càlcul gentrificació", tabName = "gentrificacio", icon = icon("dashboard"))
     ),
     
     conditionalPanel(
@@ -57,8 +59,7 @@ ui <- dashboardPage(skin = "purple",
         "input.tabs === 'domicilis' || input.tabs === 'var_domicilis'",
       pickerInput("tipus_domicili_selector", "Tipus de domicili:",
                   choices = c(
-                    dimensions_pad %>%
-                      filter(Desc_Dimensio == "TIPUS_DOMICILI") %>%
+                    dimensions_domicili_new %>%
                       pull(Desc_Valor_CA)),
                   multiple = T,
                   options = list(`actions-box` = TRUE,
@@ -88,26 +89,40 @@ ui <- dashboardPage(skin = "purple",
       sliderInput("anys_variacions", "Variació anys:",
                   min = 1, max = 5, value = 1),
     ),
-    selectInput("nivell_territorial", "Nivell territorial:",
-                choices = c("Ciutat",
-                            "Districte",
-                            "Barri"),
-                selected = "Ciutat"),
-    pickerInput("seleccio_territorial", "Selecciona:",
-                choices = c("Barcelona"),
-                selected = "Barcelona",
-                multiple = T,
-                options = list(`actions-box` = TRUE,
-                               `none-selected-text` = "Tots",
-                               `live-search` = TRUE,
-                               `size` = 10,
-                               `select-on-tab` = T)
-                ),
-    leafletOutput("mapsidebar")
+    conditionalPanel(
+      condition = "input.tabs !== 'dashboard'",
+      selectInput("nivell_territorial", "Nivell territorial:",
+                  choices = c("Ciutat",
+                              "Districte",
+                              "Barri"),
+                  selected = "Ciutat")
+    ),
+    conditionalPanel(
+      condition = "input.tabs !== 'dashboard'",
+      pickerInput("seleccio_territorial", "Selecciona:",
+                  choices = c("Barcelona"),
+                  selected = "Barcelona",
+                  multiple = T,
+                  options = list(`actions-box` = TRUE,
+                                 `none-selected-text` = "Tots",
+                                 `live-search` = TRUE,
+                                 `size` = 10,
+                                 `select-on-tab` = T)
+                  )
+    ),
+    conditionalPanel(
+      condition = "input.tabs !== 'dashboard'",
+      leafletOutput("mapsidebar")
+    )
   ),
   dashboardBody(
     tags$head(tags$style(HTML(
-      '.capcalera { 
+      'body, .content-wrapper, .right-side {
+        height: 100%;
+        background-color: #FDF8FF; /* Color de fons */
+      }
+      
+      .capcalera { 
         font-size: 20px;
         line-height: 50px;
         text-align: left;
@@ -120,6 +135,13 @@ ui <- dashboardPage(skin = "purple",
           background-color: #F8F8F8;
           border: 3px solid #615ca6; 
       }
+      .dt-center {text-align: center;}
+      .dt-vertical-line-right {
+        border-right: 2px solid black;
+      }
+      .dt-vertical-line-left {
+        border-left: 2px solid black;
+      }
     '))),
     tags$script(HTML('
       $(document).ready(function() {
@@ -128,7 +150,6 @@ ui <- dashboardPage(skin = "purple",
       })
      ')),
     tabItems(
-      # Primer tab: Dashboard
       tabItem(tabName = "dashboard",
               fluidRow(
                 box(title = "Resum",
@@ -136,22 +157,29 @@ ui <- dashboardPage(skin = "purple",
                 )
               )
       ),
-      # Segon tab: Gràfics
       tabItem(tabName = "lloguer",
+              fluidRow(
+                valueBoxOutput("lloguer_info_ciutat", width = 6),
+                valueBoxOutput("lloguer_info_any", width = 6)
+              ),
               fluidRow(
                 column(
                   width = 6,
                   fluidRow(
-                    box(leafletOutput("map_lloguer")  %>%
+                    box(title = "Distribució espacial del preu del lloguer",
+                        background = "blue",
+                        leafletOutput("map_lloguer")  %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   ),
                   fluidRow(
-                    box(highchartOutput("evol_lloguer") %>%
+                    box(title = "Evolució anual del preu del lloguer",
+                        background = "blue",
+                        highchartOutput("evol_lloguer") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -159,31 +187,40 @@ ui <- dashboardPage(skin = "purple",
                 column(
                   width = 6,
                   fluidRow(
-                    box(uiOutput("hchart_plot_lloguer") %>%
+                    box(title = "Classificació del preu del lloguer per zones",
+                        background = "blue",
+                        uiOutput("hchart_plot_lloguer") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
                 )
               ) 
       ),
-      # Segon tab: Gràfics
       tabItem(tabName = "estudis",
+              fluidRow(
+                valueBoxOutput("estudis_info_ciutat", width = 6),
+                valueBoxOutput("estudis_info_any", width = 6)
+              ),
               fluidRow(
                 column(
                   width = 6,
                   fluidRow(
-                    box(leafletOutput("map_estudis") %>%
+                    box(title = "Distribució espacial dels nivells d'estudis",
+                        background = "blue",
+                        leafletOutput("map_estudis") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   ),
                   fluidRow(
-                    box(highchartOutput("evol_estudis") %>%
+                    box(title = "Evolució anual dels nivells d'estudis",
+                        background = "blue",
+                        highchartOutput("evol_estudis") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -191,9 +228,11 @@ ui <- dashboardPage(skin = "purple",
                 column(
                   width = 6,
                   fluidRow(
-                    box(uiOutput("hchart_plot_estudis") %>%
+                    box(title = "Nivell d'estudi per zones",
+                        background = "blue",
+                        uiOutput("hchart_plot_estudis") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -203,19 +242,27 @@ ui <- dashboardPage(skin = "purple",
       ),
       tabItem(tabName = "domicilis",
               fluidRow(
+                valueBoxOutput("domicilis_info_ciutat", width = 6),
+                valueBoxOutput("domicilis_info_any", width = 6)
+              ),
+              fluidRow(
                 column(
                   width = 6,
                   fluidRow(
-                    box(leafletOutput("map_domicilis") %>%
+                    box(title = "Distribució espacial dels tipus de domicili",
+                        background = "blue",
+                        leafletOutput("map_domicilis") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   ),
                   fluidRow(
-                    box(highchartOutput("evol_domicilis") %>%
+                    box(title = "Evolució anual dels tipus de domicilis",
+                        background = "blue",
+                        highchartOutput("evol_domicilis") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -223,9 +270,11 @@ ui <- dashboardPage(skin = "purple",
                 column(
                   width = 6,
                   fluidRow(
-                    box(uiOutput("hchart_plot_domicilis") %>%
+                    box(title = "Tipus de domicilis per zones",
+                        background = "blue",
+                        uiOutput("hchart_plot_domicilis") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -235,30 +284,46 @@ ui <- dashboardPage(skin = "purple",
       ),
       tabItem(tabName = "poborigen",
               fluidRow(
+                valueBoxOutput("poborigen_info_ciutat", width = 6),
+                valueBoxOutput("poborigen_info_any", width = 6)
+              ),
+              fluidRow(
                 column(
                   width = 6,
                   fluidRow(
-                    box(leafletOutput("map_origen") %>%
+                    box(title = "Distribució espacial del llocs de naixement",
+                        background = "blue",
+                        leafletOutput("map_origen") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
-                        class = "custom-box"
+                        width = 12, color = "purple",
+                        class = "custom-box",
+                        footer = div("Nota: No es tenen en compte els nascuts a Espanya",
+                                     style = "text-align: right; color: black;") 
                     )
                   ),
                   fluidRow(
-                    box(highchartOutput("evol_origen") %>%
+                    box(title = "Evolució anual dels llocs de naixement",
+                        background = "blue",
+                        highchartOutput("evol_origen") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
-                        class = "custom-box"
+                        width = 12, color = "purple",
+                        class = "custom-box",
+                        footer = div("Nota: No es tenen en compte els nascuts a Espanya",
+                                     style = "text-align: right; color: black;")
                     )
                   )
                 ),
                 column(
                   width = 6,
                   fluidRow(
-                    box(uiOutput("hchart_plot_origen") %>%
+                    box(title = "Regió de naixement per zones",
+                        background = "blue",
+                        uiOutput("hchart_plot_origen") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
-                        class = "custom-box"
+                        width = 12, color = "purple",
+                        class = "custom-box",
+                        footer = div("Nota: No es tenen en compte els nascuts a Espanya",
+                                     style = "text-align: right; color: black;")
                     )
                   )
                 )
@@ -267,19 +332,27 @@ ui <- dashboardPage(skin = "purple",
       ),
       tabItem(tabName = "renda",
               fluidRow(
+                valueBoxOutput("renda_info_ciutat", width = 6),
+                valueBoxOutput("renda_info_any", width = 6)
+              ),
+              fluidRow(
                 column(
                   width = 6,
                   fluidRow(
-                    box(leafletOutput("map_renda") %>%
+                    box(title = "Distribució espacial de les rendes",
+                        background = "blue",
+                        leafletOutput("map_renda") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   ),
                   fluidRow(
-                    box(highchartOutput("evol_renda") %>%
+                    box(title = "Evolució anual de les rendes",
+                        background = "blue",
+                        highchartOutput("evol_renda") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -287,9 +360,11 @@ ui <- dashboardPage(skin = "purple",
                 column(
                   width = 6,
                   fluidRow(
-                    box(uiOutput("hchart_plot_renda") %>%
+                    box(title = "Classificació de les rendes per zones",
+                        background = "blue",
+                        uiOutput("hchart_plot_renda") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -299,35 +374,51 @@ ui <- dashboardPage(skin = "purple",
       ),
       tabItem(tabName = "turistics",
               fluidRow(
-                box(highchartOutput("plot_turisme") %>%
+                valueBoxOutput("turistics_info_ciutat", width = 6),
+                valueBoxOutput("turistics_info_any", width = 6)
+              ),
+              fluidRow(
+                box(title = "Classificació de pisos turístics per zones",
+                    background = "blue",
+                    highchartOutput("plot_turisme") %>%
                       shinycssloaders::withSpinner(),
-                    width = 12, status = "primary",
+                    width = 12, color = "purple",
                     class = "custom-box"
                 )
               ),
               fluidRow(
-                box(leafletOutput("map_turisme") %>%
+                box(title = "Distribució espacial de pisos turístics",
+                    background = "blue",
+                    leafletOutput("map_turisme") %>%
                       shinycssloaders::withSpinner(),
-                    width = 12, status = "primary",
+                    width = 12, color = "purple",
                     class = "custom-box"
                 )
               )
       ),
       tabItem(tabName = "grupedat",
               fluidRow(
+                valueBoxOutput("grupedat_info_ciutat", width = 6),
+                valueBoxOutput("grupedat_info_any", width = 6)
+              ),
+              fluidRow(
                 column(
                   width = 6,
                   fluidRow(
-                    box(leafletOutput("map_edat") %>%
+                    box(title = "Distribució espacial dels grups d'edat",
+                        background = "blue",
+                        leafletOutput("map_edat") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   ),
                   fluidRow(
-                    box(highchartOutput("evol_edat") %>%
+                    box(title = "Evolució anual dels grups d'edat",
+                        background = "blue",
+                        highchartOutput("evol_edat") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -335,9 +426,11 @@ ui <- dashboardPage(skin = "purple",
                 column(
                   width = 6,
                   fluidRow(
-                    box(uiOutput("hchart_plot_edat") %>%
+                    box(title = "Grups d'edat per zones",
+                        background = "blue",
+                        uiOutput("hchart_plot_edat") %>%
                           shinycssloaders::withSpinner(),
-                        width = 12, status = "primary",
+                        width = 12, color = "purple",
                         class = "custom-box"
                     )
                   )
@@ -347,190 +440,321 @@ ui <- dashboardPage(skin = "purple",
       ),
       tabItem(tabName = "var_lloguer",
               fluidRow(
-                box(highchartOutput("plot_var_lloguer") %>%
+                valueBoxOutput("var_lloguer_info_ciutat", width = 6),
+                valueBoxOutput("var_lloguer_info_any", width = 6)
+              ),
+              fluidRow(
+                box(title = "Variació lloguer (€/m2)",
+                    background = "blue",
+                    highchartOutput("plot_var_lloguer") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(highchartOutput("plot_perc_lloguer") %>%
+                box(title = "Variació lloguer (%)",
+                    background = "blue",
+                    highchartOutput("plot_perc_lloguer") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               ),
               fluidRow(
-                box(leafletOutput("map_var_lloguer") %>%
+                box(title = "Distribució espacial variació (€/m2)",
+                    background = "blue",
+                    leafletOutput("map_var_lloguer") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(leafletOutput("map_perc_lloguer") %>%
+                box(title = "Distribució espacial variació percentual (%)",
+                    background = "blue",
+                    leafletOutput("map_perc_lloguer") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               )
       ),
       tabItem(tabName = "var_estudis",
               fluidRow(
-                box(highchartOutput("plot_var_estudis") %>%
+                valueBoxOutput("var_estudis_info_ciutat", width = 6),
+                valueBoxOutput("var_estudis_info_any", width = 6)
+              ),
+              fluidRow(
+                box(title = "Variació nivell d'estudis",
+                    background = "blue",
+                    highchartOutput("plot_var_estudis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(highchartOutput("plot_perc_estudis") %>%
+                box(title = "Variació percentual nivell d'estudis (%)",
+                    background = "blue",
+                    highchartOutput("plot_perc_estudis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               ),
               fluidRow(
-                box(leafletOutput("map_var_estudis") %>%
+                box(title = "Distribució espacial variació",
+                    background = "blue",
+                    leafletOutput("map_var_estudis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(leafletOutput("map_perc_estudis") %>%
+                box(title = "Distribució espacial variació percentual (%)",
+                    background = "blue",
+                    leafletOutput("map_perc_estudis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               )
       ),
       tabItem(tabName = "var_domicilis",
               fluidRow(
-                box(highchartOutput("plot_var_domicilis") %>%
+                valueBoxOutput("var_domicilis_info_ciutat", width = 6),
+                valueBoxOutput("var_domicilis_info_any", width = 6)
+              ),
+              fluidRow(
+                box(title = "Variació tipus de domicilis",
+                    background = "blue",
+                    highchartOutput("plot_var_domicilis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(highchartOutput("plot_perc_domicilis") %>%
+                box(title = "Variació percentual tipus de domicilis (%)",
+                    background = "blue",
+                    highchartOutput("plot_perc_domicilis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               ),
               fluidRow(
-                box(leafletOutput("map_var_domicilis") %>%
+                box(title = "Distribució espacial variació",
+                    background = "blue",
+                    leafletOutput("map_var_domicilis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(leafletOutput("map_perc_domicilis") %>%
+                box(title = "Distribució espacial variació percentual (%)",
+                    background = "blue",
+                    leafletOutput("map_perc_domicilis") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               )
       ),
       tabItem(tabName = "var_poborigen",
               fluidRow(
-                box(highchartOutput("plot_var_poborigen") %>%
+                valueBoxOutput("var_poborigen_info_ciutat", width = 6),
+                valueBoxOutput("var_poborigen_info_any", width = 6)
+              ),
+              fluidRow(
+                box(title = "Variació lloc de naixement",
+                    background = "blue",
+                    highchartOutput("plot_var_poborigen") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
-                    class = "custom-box"
+                    width = 6, color = "purple",
+                    class = "custom-box",
+                    footer = div("Nota: No es tenen en compte els nascuts a Espanya",
+                                 style = "text-align: right; color: black;")
                 ),
-                box(highchartOutput("plot_perc_poborigen") %>%
+                box(title = "Variació percentual lloc de naixement (%)",
+                    background = "blue",
+                    highchartOutput("plot_perc_poborigen") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
-                    class = "custom-box"
+                    width = 6, color = "purple",
+                    class = "custom-box",
+                    footer = div("Nota: No es tenen en compte els nascuts a Espanya",
+                                 style = "text-align: right; color: black;")
                 )
               ),
               fluidRow(
-                box(leafletOutput("map_var_poborigen") %>%
+                box(title = "Distribució espacial variació",
+                    background = "blue",
+                    leafletOutput("map_var_poborigen") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
-                    class = "custom-box"
+                    width = 6, color = "purple",
+                    class = "custom-box",
+                    footer = div("Nota: No es tenen en compte els nascuts a Espanya",
+                                 style = "text-align: right; color: black;")
                 ),
-                box(leafletOutput("map_perc_poborigen") %>%
+                box(title = "Distribució espacial variació percentual (%)",
+                    background = "blue",
+                    leafletOutput("map_perc_poborigen") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
-                    class = "custom-box"
+                    width = 6, color = "purple",
+                    class = "custom-box",
+                    footer = div("Nota: No es tenen en compte els nascuts a Espanya",
+                                 style = "text-align: right; color: black;")
                 )
               )
       ),
       tabItem(tabName = "var_renda",
               fluidRow(
-                box(highchartOutput("plot_var_renda") %>%
+                valueBoxOutput("var_renda_info_ciutat", width = 6),
+                valueBoxOutput("var_renda_info_any", width = 6)
+              ),
+              fluidRow(
+                box(title = "Variació renda anual (€)",
+                    background = "blue",
+                    highchartOutput("plot_var_renda") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(highchartOutput("plot_perc_renda") %>%
+                box(title = "Variació renda anual (%)",
+                    background = "blue",
+                    highchartOutput("plot_perc_renda") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               ),
               fluidRow(
-                box(leafletOutput("map_var_renda") %>%
+                box(title = "Distribució espacial variació (€)",
+                    background = "blue",
+                    leafletOutput("map_var_renda") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(leafletOutput("map_perc_renda") %>%
+                box(title = "Distribució espacial variació percentual (%)",
+                    background = "blue",
+                    leafletOutput("map_perc_renda") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               )
       ),
       tabItem(tabName = "var_grupedat",
               fluidRow(
-                box(highchartOutput("plot_var_grupedat") %>%
+                valueBoxOutput("var_grupedat_info_ciutat", width = 6),
+                valueBoxOutput("var_grupedat_info_any", width = 6)
+              ),
+              fluidRow(
+                box(title = "Variació grups d'edat",
+                    background = "blue",
+                    highchartOutput("plot_var_grupedat") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(highchartOutput("plot_perc_grupedat") %>%
+                box(title = "Variació percentual grups d'edat (%)",
+                    background = "blue",
+                    highchartOutput("plot_perc_grupedat") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               ),
               fluidRow(
-                box(leafletOutput("map_var_grupedat") %>%
+                box(title = "Distribució espacial variació",
+                    background = "blue",
+                    leafletOutput("map_var_grupedat") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 ),
-                box(leafletOutput("map_perc_grupedat") %>%
+                box(title = "Distribució espacial variació percentual (%)",
+                    background = "blue",
+                    leafletOutput("map_perc_grupedat") %>%
                       shinycssloaders::withSpinner(),
-                    width = 6, status = "primary",
+                    width = 6, color = "purple",
                     class = "custom-box"
                 )
               )
       ),
       tabItem(tabName = "gentrificacio",
-              column(
-                width = 6,
-                fluidRow(
-                  box(leafletOutput("mapa_gentrificacio_cluster")  %>%
-                        shinycssloaders::withSpinner(),
-                      width = 12, status = "primary",
-                      class = "custom-box"
-                  ) 
+              fluidRow(
+                valueBoxOutput("gentrificacio_info_ciutat", width = 6),
+                valueBoxOutput("gentrificacio_info_any", width = 6)
+              ),
+              fluidRow(
+                box(
+                  title = "Nivell de gentrificació per K-Means",
+                  background = "blue",
+                  leafletOutput("mapa_gentrificacio_cluster")  %>%
+                    shinycssloaders::withSpinner(),
+                  width = 6, color = "purple",
+                  class = "custom-box"
                 ),
-                fluidRow(
-                  box(leafletOutput("mapa_gentrificacio_quantils")  %>%
-                        shinycssloaders::withSpinner(),
-                      width = 12, status = "primary",
-                      class = "custom-box"
-                  )
+                box(title = "Nivell de gentrificació per puntuació de variables (índex de gentrificació)",
+                    background = "blue",
+                    leafletOutput("mapa_gentrificacio_quantils")  %>%
+                      shinycssloaders::withSpinner(),
+                    width = 6, color = "purple",
+                    class = "custom-box"
                 )
               ),
-              column(
-                width = 6,
-                fluidRow(
-                  box(DTOutput("taula_comparativa") %>%
-                        shinycssloaders::withSpinner(),
-                      width = 12, status = "primary",
-                      class = "custom-box"
-                  )
+              fluidRow(
+                width = 12,
+                box(
+                  title = "Distribució de les puntuacions de les variables",
+                  fluidRow(
+                    column(width = 6),
+                    column(
+                      width = 3,
+                      selectInput("puntuacio_gen", tags$span(style="color: black;","Variable:"),
+                                  choices = c("Renda" = "Punt_Renda",
+                                              "Pisos turístics" = "Punt_Pisos",
+                                              "Domicilis unifamiliars" = "Punt_Domicilis",
+                                              "Edat" = "Punt_Edat",
+                                              "Lloc naixement" = "Punt_Regio",
+                                              "Població universitària" = "Punt_Uni",
+                                              "Lloguer" = "Punt_Lloguer",
+                                              "Gentrificació" = "Punt_Gentrificacio")
+                      )
+                    ),
+                    column(
+                      width = 3,
+                      selectInput("metode_estudi", tags$span(style="color: black;","Mètode:"),
+                                  choices = c("K-Means",
+                                              "Índex de gentrificació")
+                      )
+                    )
+                  ),
+                  background = "blue",
+                  fluidRow(
+                    width = 12,
+                    column(
+                      width = 6,
+                      leafletOutput("mapa_gentrificacio_puntuacions")  %>%
+                        shinycssloaders::withSpinner()
+                    ),
+                    column(
+                      width = 6,
+                      highchartOutput("plot_gentrificacio_classificacions")  %>%
+                        shinycssloaders::withSpinner()
+                    )
+                  ),
+                  width = 12, color = "purple",
+                  class = "custom-box"
                 )
+              ),
+              fluidRow(
+                width = 12,
+                box(title = "Taula comparativa entre mètodes (K-Means vs. Índex de gentrificació)",
+                    background = "blue",
+                    DTOutput("taula_comparativa") %>% withSpinner(),
+                    width = 12, color = "purple",
+                    class = "custom-box",
+                    footer = div("Nota: En cas de discrepància amb el barris assenyalats al mapa,
+                                   aquest últim prevaleix sobre la taula.",
+                                 style = "text-align: right; color: black;")
+                )
+                
               )
-              
+            )
       )
     )
   )
-)
