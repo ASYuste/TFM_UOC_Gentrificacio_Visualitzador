@@ -152,8 +152,78 @@ ui <- dashboardPage(skin = "purple",
     tabItems(
       tabItem(tabName = "dashboard",
               fluidRow(
-                box(title = "Resum",
-                    "Aquí hi hauria el resum del teu dashboard."
+                box(title = "Presentació",
+                    # background = "blue",
+                    width = 12, #color = "purple",
+                    solidHeader = TRUE,
+                    p("Benvingut/da al visualitzador interactiu del projecte titulat
+                      'Evolució de la gentrificació a la ciutat de Barcelona i anàlisi dels
+                      factors que la caracteritzen'. Aquest 
+                      projecte s'engloba dins del Treball Final de Màster del mateix títol, 
+                      dins del màster de Ciència de Dades de la
+                      Universitat Oberta de Catalunya (UOC) per al curs acadèmic 2023-2024."),
+                    p("Aquesta web, tal i com se'n deriva del títol del projecte, persegueix l'objectiu de 
+                      proporcionar elements gràfics interactuables i modificables que reflecteixin
+                      la situació dels processos de gentrificació a Barcelona, identificant-ne els
+                      factors que la provoquen, així com la seva evolució en el temps, i poder
+                      determinar un nivell de gentrificació per als diferents barris de la ciutat."),
+                    p("A mida que avanci per les diferents pestanyes observarà que a la columna esquerra
+                      apareixeran selectors de diferent tipologia en què pot seleccionar una varietat
+                      de variables adaptades al contingut que té davant (anys, grups de població, informació
+                      a nivell de ciutat / districte / barri, consultes per a regions i grups concrets, etc.). També
+                      observarà un mapa a la part inferior on pot seleccionar els districtes / barris dels
+                      quals vulgui realitzar una consulta concreta. L'animem a que provi totes les combinacions
+                      que li siguin d'interès!"),
+                    p("Al llarg de les diferents pestanyes també podrà observar diferents mapes. Juntament
+                      amb el que trobarà a la part inferior de la barra esquerra, tots són interactuables i
+                      mútuament sincronitzats. Si vol seleccionar un barri / districte en concret,
+                      pot seleccionar-lo dels llistat de l'esquerra o cliqui
+                      en qualsevol dels mapes que tingui davant i es destacarà en tots ells. Per desmarcar un
+                      barri / districte marcat, pot clicar-hi novament a sobre o desmarcar-lo del llistat de
+                      la barra esquerra."),
+                    p("En quant al contingut que hi trobarà, aquesta pàgina web està dividida en tres parts:"),
+                    HTML("
+                         <ul>
+                          <li><b>Anàlisi anual:</b> La primera de les pestanyes que pot observar a l'esquerra 
+                         d'aquest text conté informació anual d'un seguit de variables que s'han considerat influents
+                         a l'hora de determinar els processos de gentrificació. Per a cada variable apareixeran
+                         a la columna esquerra un seguit de selectors i filtres per tal de consultar els valors dels
+                         diferents anys, consulta de conjunts de població concrets, granularitat segons si es
+                         consulten valors de barri / districte / ciutat, etc.</li>
+                         <li><b>Evolució anual:</b> Es segueixen observant la majoria de les variables de l'anterior
+                         pestanya, però tenint en compte la seva variació respecte a alguns anys enrere. Igual
+                         que en l'anterior cas, pot modificar de quin any vol realitzar la consulta i respecte
+                         a quants anys enrere es vol comparar. El rang de dates màxim de consulta en aquesta 
+                         pestanya està entre l'any 2016 i 2023, i la diferència d'anys a comparar és entre
+                         1 i 5 anys de diferència.</li>
+                         <li><b>Càlcul gentrificació:</b> La última de les parts presenta les representacions
+                         gràfiques dels resultats dels nivells de gentrificació seguint dues metodologies diferents.
+                         A diferència dels casos anteriors, la precisió dels càlculs es limita a valors de barris,
+                         i el valor d'anys de comparació entre variables amb el pas del temps que s'ha establer per al
+                         seu càlcul està fixat a 5 anys, per lo que els rangs de data de consulta està limitat
+                         entre els anys 2020 i 2023. També pot observar la distribució de les puntuacions de les
+                         diferents variables per barris i els valors que s'obtenen segons el mètode aplicat.
+                         Finalment es pot observar en forma de taula els valors obtinguts.</li>
+                         </ul>
+                         <p>
+                         <p>Per a qualsevol dubte no dubti a consultar a través del
+                         següent <a href='mailto:asalvadory@uoc.edu'>enllaç</a>.
+                         <p>
+                         <p>Alhora, si desitja analitzar el codi amb el que s'ha realitzat aquesta interfície el podrà
+                         trobar al següent projecte de
+                         <a href='https://github.com/ASYuste/TFM_UOC_Gentrificacio_Visualitzador' target='_blank'>
+                         Github</a>. A més, si vol consultar el projecte del qual se'n deriva tot el contingut
+                         aquí disponible, pot trobar el projecte
+                         original al següent enllaç de
+                         <a href='https://github.com/ASYuste/TFM_UOC_Gentrificacio' target='_blank'>Github</a>.
+                         <p>
+                         
+                         <p>Moltes gràcies per la seva atenció, i que gaudeixi de la visualització!
+                         <p>
+                         <p>
+                         <div style='text-align: right;'<p>Albert Salvador Yuste
+                         <p>
+                         <img src='logo-UOC-2linies.png' alt='Logotip_UOC' width='400'></div>")
                 )
               )
       ),
