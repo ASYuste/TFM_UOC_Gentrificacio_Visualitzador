@@ -900,13 +900,16 @@ server <- function(input, output, session) {
       
     } else {
       if (!is.null(input$seleccio_territorial)){
-        
+        plot_dades_temp <- plot_dades %>%
+          filter(NOM %in% input$seleccio_territorial)
+      } else {
+        plot_dades_temp <- plot_dades
       }
       if (!isFALSE(variable_categoria)){
         if (length(input_value)==1){
           variable_grup <- "NOM"
         } else {
-          plot_dades_var <- plot_dades %>%
+          plot_dades_var <- plot_dades_temp %>%
             group_by(Data_Referencia, !!sym(variable_categoria)) %>%
             mutate(!!variable_abs := sum(!!sym(variable_abs), na.rm = T),
                    !!var_ref := sum(!!sym(var_ref), na.rm = T),
@@ -937,8 +940,12 @@ server <- function(input, output, session) {
         nrow(unique(plot_dades[,variable_categoria]))
       
       plot_dades <- comparar_passat(plot_dades, files_retrocedir, variable_abs, variable_per)
-      # if (input_value == "Tots" & input$seleccio_territorial == "Tots"){
       if (length(input_value)!=1 & length(input$seleccio_territorial)!=1){
+        
+        files_retrocedir <- anys_var*
+          nrow(unique(plot_dades_temp[,filtre_territorial]))*
+          nrow(unique(plot_dades_temp[,variable_categoria]))
+        
         plot_dades_var <- comparar_passat(plot_dades_var, files_retrocedir, variable_abs, variable_per)
       } else {
         plot_dades_var <- NULL
